@@ -100,7 +100,7 @@
     {
         "id": "surgeon",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_surgeon.png?raw=true",
-        "otherNight": 20,
+        "otherNight": 19,
         "otherNightReminder": "The Surgeon may choose a player.",
         "name": "Surgeon",
         "team": "townsfolk",
@@ -196,7 +196,7 @@
     {
         "id": "rasputin",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_rasputin.png?raw=true",
-        "otherNight": 17,
+        "otherNight": 20,
         "otherNightReminder": "Rasputin may choose a player.",
         "reminders": [ "Resurrected" ],
         "name": "Rasputin",
@@ -218,7 +218,7 @@
     {
         "id": "thegoat",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_thegoat.png?raw=true",
-        "otherNight": 19,
+        "otherNight": 17,
         "otherNightReminder": "If The goat was nominated today, a player dies.",
         "reminders": [ "Chosen" ],
         "name": "The Goat",
