@@ -134,7 +134,7 @@
         "reminders": [ "Dies tonight" ],
         "name": "Organ donor",
         "team": "townsfolk",
-        "ability": "Each day, you may publicly ask another player one yes or no question. If they don't lie, you die tonight."
+        "ability": "Each day, you may publicly ask another player one yes or no question. If they don't lie, you die tonight and they are resurrected."
     },
     {
         "id": "homeless",
