@@ -68,7 +68,7 @@
         "reminders": [ "Dead", "Chosen" ],
         "name": "Angler",
         "team": "townsfolk",
-        "ability": "Each day, you may publicly choose a player (different to last day): you and that player can't die tonight. If 3 or more players are dead, both of you might die tonight instead."
+        "ability": "Each day, you may publicly choose a player (different to last day): you and that player can't die tonight. If 3 or more players are dead, one of you might die tonight instead."
     },
     {
         "id": "shaman",
