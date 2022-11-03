@@ -35,7 +35,7 @@
         "reminders": [ "Correct, Wrong, Drunk" ],
         "name": "Houndmaster",
         "team": "townsfolk",
-        "ability": "Each night, choose a good character: you learn two players, one of which is this character. If you choose a character not in play, you are drunk until dawn."
+        "ability": "Each night, choose a good character: you learn two players, one of which is this character. If you choose a character not in play, you are drunk until dusk."
     },
     {
         "id": "scholar",
