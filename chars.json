@@ -12,7 +12,7 @@
         "firstNightReminder": "The City guard chooses two players, show whether any of them is an outsider.",
         "otherNight": 22,
         "otherNightReminder": "The City guard chooses two players, show whether any of them is an outsider.",
-        "reminders": [ "Chosen" ],
+        "reminders": [ "Chosen", "Chosen" ],
         "name": "City guard",
         "team": "townsfolk",
         "ability": "Each night, choose two players: you learn if any of them is an outsider."
@@ -23,19 +23,19 @@
         "reminders": [ "No ability" ],
         "name": "Private eye",
         "team": "townsfolk",
-        "ability": "Once per game, during the day, publicly announce that you've solved the case. The storyteller will ask you 3 questions. If you answer any of them wrong, you are executed immediately."
+        "ability": "Once per game, during the day, publicly announce that you've solved the case. The storyteller will ask you 3 questions. If you publicly answer any of them wrong, you are executed."
     },
     {
         "id": "houndmaster",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_houndmaster.png?raw=true",
         "firstNight": 25,
-        "firstNightReminder": "The Houndmaster chooses a good character, point to two players.",
+        "firstNightReminder": "The Houndmaster chooses a player.",
         "otherNight": 25,
-        "otherNightReminder": "The Houndmaster chooses a good character, point to two players.",
-        "reminders": [ "Correct, Wrong, Drunk" ],
+        "otherNightReminder": "The Houndmaster chooses a player.",
+        "reminders": [ "Chosen" ],
         "name": "Houndmaster",
         "team": "townsfolk",
-        "ability": "Each night, choose a good character: you learn two players, one of which is this character. If you choose a character not in play, you are drunk until dusk."
+        "ability": "Each night, choose a player: you learn if both of their alive neighbours are a townsfolk."
     },
     {
         "id": "scholar",
@@ -47,7 +47,7 @@
         "reminders": [ "No ability, Drunk, Chosen" ],
         "name": "Scholar",
         "team": "townsfolk",
-        "ability": "Once per game, at night, choose a player: learn their character and gain that character's ability. If you choose an evil player, you are drunk."
+        "ability": "Once per game, at night, choose a player: learn their character and gain that character's ability. If you choose a demon, you are drunk."
     },
     {
         "id": "conspirator",
@@ -75,7 +75,7 @@
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_shaman.png?raw=true",
         "otherNight": 23,
         "otherNightReminder": "If the Shaman died tonight, show him a number.",
-        "reminders": [ "Dies tonight" ],
+        "reminders": [ "Died tonight" ],
         "name": "Shaman",
         "team": "townsfolk",
         "ability": "When you die, you learn how many dead players are evil."
@@ -130,8 +130,8 @@
         "id": "organdonor",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_organdonor.png?raw=true",
         "otherNight": 10,
-        "otherNightReminder": "The Organ donor may die.",
-        "reminders": [ "Dies tonight" ],
+        "otherNightReminder": "The Organ donor may die and the other player may be resurrected.",
+        "reminders": [ "Dies tonight", "Resurrected tonight" ],
         "name": "Organ donor",
         "team": "townsfolk",
         "ability": "Each day, you may publicly ask another player one yes or no question. If they don't lie, you die tonight and they are resurrected."
@@ -144,17 +144,17 @@
         "reminders": [ "Drunk" ],
         "name": "Homeless",
         "team": "outsider",
-        "ability": "Each night*, if you are not drunk, you die. When you become a target of any ability, you are drunk until dusk."
+        "ability": "Each night*, you die. When you become a target of any ability, you are drunk until dusk."
     },
     {
         "id": "taxcollector",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_taxcollector.png?raw=true",
         "otherNight": 29,
         "otherNightReminder": "The Tax collector may become a target of an ability. A townsfolk may die.",
-        "reminders": [ "Dies tonight" ],
+        "reminders": [ "Drunk" ],
         "name": "Tax collector",
         "team": "outsider",
-        "ability": "If you did not become a target of any ability today or tonight, a townsfolk might die at night."
+        "ability": "Each night*, a townsfolk might die. When you become a target of any ability, you are drunk until dusk."
     },
     {
         "id": "actor",
@@ -164,7 +164,7 @@
         "reminders": [ "Dies" ],
         "name": "Actor",
         "team": "outsider",
-        "ability": "Each day, if you don't roleplay as a single townsfolk character in the script, you might die at night."
+        "ability": "Each night*, you die. If you did roleplay as a single character in the script today, you are drunk until dusk."
     },
     {
         "id": "zombie",
@@ -181,14 +181,14 @@
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_noone.png?raw=true",
         "name": "No one",
         "team": "outsider",
-        "ability": "You always register as not in play. You always know you are a No one. If you vote, you die immediately, but the vote counts."
+        "ability": "You always register as not in play. If you vote, you die immediately, but the vote counts."
     },
     {
         "id": "judas",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_judas.png?raw=true",
         "otherNight": 18,
         "otherNightReminder": "Judas may choose a player.",
-        "reminders": [ "No ability", "Good" ],
+        "reminders": [ "Demon", "Good" ],
         "name": "Judas",
         "team": "minion",
         "ability": "Once per game, at night*, choose a player: they die. Also, if you choose a demon, he becomes good and you become a demon. At dusk, if you are a demon and no one was executed today, evil wins."
@@ -198,32 +198,32 @@
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_rasputin.png?raw=true",
         "otherNight": 20,
         "otherNightReminder": "Rasputin may choose a player.",
-        "reminders": [ "Resurrected" ],
+        "reminders": [ "No ability", "Resurrected" ],
         "name": "Rasputin",
         "team": "minion",
-        "ability": "Once per game, at night*, you may choose a player: they are resurrected. If you are dead, you may only choose yourself."
+        "ability": "Once per game, at night*, you may choose a player: they are resurrected and might become evil. If you are dead, you may only choose yourself."
     },
     {
         "id": "therat",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_therat.png?raw=true",
         "firstNight": 9,
-        "firstNightReminder": "Wake both the Rat and evil demons, the Rat choses a player, show two character tokens.",
+        "firstNightReminder": "Wake The Rat, show two character tokens.",
         "otherNight": 21,
-        "otherNightReminder": "Wake both the Rat and evil demons, the Rat choses a player, show two character tokens.",
+        "otherNightReminder": "The Rat points to a player. Then show two character tokens to all evil demons.",
         "reminders": [ "Chosen" ],
         "name": "The Rat",
         "team": "minion",
-        "ability": "Each night, choose a player: both you and all evil demons learn two characters, one of which is that player."
+        "ability": "Each night*, choose a player: All evil demons learn who you chose and two characters, one of which is that player. You start knowing 2 characters not in play."
     },
     {
         "id": "thegoat",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_thegoat.png?raw=true",
         "otherNight": 17,
-        "otherNightReminder": "If The goat was nominated today, a player dies.",
-        "reminders": [ "Chosen" ],
+        "otherNightReminder": "If The Goat was nominated today, a player dies or The Goat dies.",
+        "reminders": [ "Dies tonight" ],
         "name": "The Goat",
         "team": "minion",
-        "ability": "The player who nominated you today dies tonight."
+        "ability": "The player who nominated you today dies tonight. If the demon nominated you, you die tonight instead."
     },
     {
         "id": "nyrtho",
@@ -232,7 +232,7 @@
         "firstNightReminder": "Show which outsiders are in play.",
         "otherNight": 12,
         "otherNightReminder": "Nyrtho may choose a player and an outsider they become.",
-        "reminders": [ "Transformed", "No one" ],
+        "reminders": [ "No one" ],
         "name": "Nyrtho",
         "team": "demon",
         "setup": true,
@@ -245,7 +245,8 @@
         "otherNightReminder": "Ghuul chooses a player.",
         "name": "Ghuul",
         "team": "demon",
-        "ability": "Each night*, choose a player: they die. You always register as dead. Each night, you are resurrected. Evil can't lose as long as any other evil player is alive."
+        "setup": true,
+        "ability": "Each night*, choose a player: they die. You always register as dead. Each night, you are resurrected. Evil can't lose as long as any other evil player is alive. [+1 outsider]"
     },
     {
         "id": "camazotti",
@@ -263,8 +264,9 @@
         "firstNightReminder": "Point to the good demon.",
         "otherNight": 14,
         "otherNightReminder": "Chernobog chooses a player.",
+        "reminders": [ "Demon" ],
         "name": "Chernobog",
         "team": "demon",
-        "ability": "A townsfolk player is a good demon, but does not know. When you die, that player learns that he is a demon. Each night*, choose a player: they die. While the good demon lives, you may only choose him or his alive neighbours."
+        "ability": "A townsfolk player is a good demon, but does not know. When you die, that player learns that he is a demon. Each night*, choose a player: they die. While the good demon lives, you may only choose his alive neighbours."
     }
 ]
