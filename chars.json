@@ -150,7 +150,7 @@
         "id": "taxcollector",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_taxcollector.png?raw=true",
         "otherNight": 29,
-        "otherNightReminder": "The Tax collector may become a target of an ability. A townsfolk may die.",
+        "otherNightReminder": "A townsfolk may die.",
         "reminders": [ "Drunk" ],
         "name": "Tax collector",
         "team": "outsider",
