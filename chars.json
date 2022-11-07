@@ -15,7 +15,7 @@
         "reminders": [ "Chosen", "Chosen" ],
         "name": "City guard",
         "team": "townsfolk",
-        "ability": "Each night, choose 2 players: you learn if any of them is an outsider."
+        "ability": "Each night, choose 2 players: learn if any of them is an outsider."
     },
     {
         "id": "privateeye",
@@ -134,7 +134,7 @@
         "reminders": [ "Dies tonight", "Resurrected tonight" ],
         "name": "Organ donor",
         "team": "townsfolk",
-        "ability": "Each day, you may publicly ask a player what their character is. If their answer is true, you die tonight and they are resurrected."
+        "ability": "Each day, you may publicly ask another player what their character is. If they don't lie, you die tonight and they are resurrected."
     },
     {
         "id": "homeless",
@@ -144,7 +144,7 @@
         "reminders": [ "Chosen" ],
         "name": "Homeless",
         "team": "outsider",
-        "ability": "Each day, publicly choose a player. At night, If they are dead, you die as well."
+        "ability": "Each day, publicly choose a player. At night, if they are dead, you die as well."
     },
     {
         "id": "taxcollector",
@@ -205,7 +205,7 @@
         "name": "The Cockroach",
         "team": "minion",
         "setup": true,
-        "ability": "You think you are an outsider, but you are not. When you die, you learn who the evil demons are. [+1 outsider]"
+        "ability": "You think you are an outsider, but you are not. When you die, learn who the evil demons are. [+1 outsider]"
     },
     {
         "id": "thegoat",
@@ -224,7 +224,7 @@
         "otherNightReminder": "Nyrtho chooses a player.",
         "name": "Nyrtho",
         "team": "demon",
-        "ability": "Each night*, choose a player: they die. Whenever another player chooses a player due to their ability, their neighbour is chosen instead. All players keep their abilities when dead."
+        "ability": "Each night*, choose a player: they die. Whenever another player chooses a player due to their ability, their neighbour is chosen instead. Dead players keep their abilities."
     },
     {
         "id": "ghuul",
