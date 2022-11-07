@@ -38,7 +38,7 @@
         "reminders": [ "Chosen" ],
         "name": "Houndmaster",
         "team": "townsfolk",
-        "ability": "Each night, choose a player. Learn if any of their alive neighbour is a townsfolk."
+        "ability": "Each night, choose a player: learn if any of their alive neighbour is a townsfolk."
     },
     {
         "id": "graverobber",
@@ -78,7 +78,7 @@
         "otherNightReminder": "If the Shaman died tonight, show him a number.",
         "name": "Shaman",
         "team": "townsfolk",
-        "ability": "When you die, you learn how many dead players are evil."
+        "ability": "When you die and remain dead at night, learn how many dead players are evil."
     },
     {
         "id": "pastor",
@@ -86,7 +86,7 @@
         "reminders": [ "No deaths" ],
         "name": "Pastor",
         "team": "townsfolk",
-        "ability": "If a townsfolk was executed today, no townsfolk can die tonight."
+        "ability": "If a townsfolk was executed today and remains dead, no townsfolk can die tonight."
     },
     {
         "id": "falconer",
@@ -95,7 +95,7 @@
         "otherNightReminder": "If the Falconer died tonight, show thumbs up or thumbs down.",
         "name": "Falconer",
         "team": "townsfolk",
-        "ability": "If you die at night, choose a player: learn if they or any of their neighbour is a demon."
+        "ability": "If you die at night and remain dead, choose a player: learn if they or any of their neighbours are a demon."
     },
     {
         "id": "surgeon",
@@ -104,7 +104,7 @@
         "otherNightReminder": "The Surgeon may choose a player.",
         "name": "Surgeon",
         "team": "townsfolk",
-        "ability": "Once per game, at night*, choose a player: if they are evil or demon, they are resurrected. Otherwise, they die."
+        "ability": "Once per game, at night*, choose a player: if they are evil or demon, they are resurrected. Otherwise, learn their character and they die."
     },
     {
         "id": "girlfriend",
@@ -124,7 +124,7 @@
         "reminders": [ "Does not wake up" ],
         "name": "Monster",
         "team": "townsfolk",
-        "ability": "Each night*, choose a player (different to last night): they don't wake up tonight. You may register as dead."
+        "ability": "Each night*, choose a player (different to last night): they don't wake up tonight. You might register as dead."
     },
     {
         "id": "organdonor",
@@ -144,7 +144,7 @@
         "reminders": [ "Chosen" ],
         "name": "Homeless",
         "team": "outsider",
-        "ability": "Each day, publicly choose a player. At night, if they are dead, you die as well."
+        "ability": "Each night*, you die. Each day, publicly choose a player: if they agree and are alive, both of you are drunk."
     },
     {
         "id": "taxcollector",
@@ -164,7 +164,7 @@
         "reminders": [ "Died today" ],
         "name": "Acolyte",
         "team": "outsider",
-        "ability": "Each night, if you died today or tonight, choose an alive player. They become a demon."
+        "ability": "Each night*, if you died today or tonight, choose an alive player. They become a demon."
     },
     {
         "id": "zombie",
@@ -184,7 +184,7 @@
         "reminders": [ "Demon", "Good" ],
         "name": "Judas",
         "team": "minion",
-        "ability": "Once per game, at night*, choose a player: they die. If you choose a demon, he becomes good and you become a demon. At dusk, if you are a demon and no one was executed today, evil wins."
+        "ability": "Once per game, at night*, choose a player: they die. If you choose a demon, he becomes good and you become a demon. Each night*, if you are a demon and no one was executed today, evil wins."
     },
     {
         "id": "rasputin",
