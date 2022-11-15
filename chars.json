@@ -147,24 +147,24 @@
         "ability": "Each night*, you die. Each day, if one alive player agrees, both of you are drunk until dawn."
     },
     {
-        "id": "taxcollector",
-        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_taxcollector.png?raw=true",
+        "id": "mimic",
+        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_actor.png?raw=true",
         "otherNight": 29,
-        "otherNightReminder": "?",
-        "reminders": [ "Died today" ],
-        "name": "Tax collector",
+        "otherNightReminder": "A Mimic's victim may die tonight.",
+        "reminders": [ "Dies tonigh", "Victim" ],
+        "name": "Mimic",
         "team": "outsider",
-        "ability": "???"
+        "ability": "You start knowing a character in play. If you are not mad about being this character, they die at night."
     },
     {
         "id": "acolyte",
-        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_actor.png?raw=true",
+        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_taxcollector.png?raw=true",
         "otherNight": 9,
         "otherNightReminder": "The Acolyte may choose an alive player.",
         "reminders": [ "Died today" ],
         "name": "Acolyte",
         "team": "outsider",
-        "ability": "Each night*, if you died today or tonight, choose an alive player. They become a demon."
+        "ability": "If you die, choose an alive player. They become a demon."
     },
     {
         "id": "zombie",
