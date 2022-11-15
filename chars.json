@@ -48,7 +48,7 @@
         "reminders": [ "No ability, Drunk, Chosen" ],
         "name": "Graverobber",
         "team": "townsfolk",
-        "ability": "Once per game, at night*, choose a player: learn their character and gain that character's ability. If you choose a demon or an alive player, you are drunk."
+        "ability": "Once per game, at night*, choose a player: learn their character and gain that character's ability. If you choose a demon or alive player, you are drunk."
     },
     {
         "id": "conspirator",
@@ -78,7 +78,7 @@
         "otherNightReminder": "If the Shaman died tonight, show him a number.",
         "name": "Shaman",
         "team": "townsfolk",
-        "ability": "When you die and remain dead at night, learn how many dead players are evil."
+        "ability": "Each night*, if you died today or tonight, learn how many dead players are evil."
     },
     {
         "id": "pastor",
@@ -86,7 +86,7 @@
         "reminders": [ "No deaths" ],
         "name": "Pastor",
         "team": "townsfolk",
-        "ability": "If a townsfolk was executed today and remains dead, no townsfolk can die tonight."
+        "ability": "If a townsfolk was executed today, no townsfolk can die tonight."
     },
     {
         "id": "falconer",
@@ -95,7 +95,7 @@
         "otherNightReminder": "If the Falconer died tonight, show thumbs up or thumbs down.",
         "name": "Falconer",
         "team": "townsfolk",
-        "ability": "If you die at night and remain dead, choose a player: learn if they or any of their neighbours are a demon."
+        "ability": "If you die at night, choose a player: learn if they or any of their neighbours are a demon."
     },
     {
         "id": "surgeon",
@@ -104,17 +104,17 @@
         "otherNightReminder": "The Surgeon may choose a player.",
         "name": "Surgeon",
         "team": "townsfolk",
-        "ability": "Once per game, at night*, choose a player: if they are evil or demon, they are resurrected. Otherwise, learn their character and they die."
+        "ability": "Once per game, at night*, choose a player: if they are a townsfolk, they die. Otherwise, they are resurrected."
     },
     {
         "id": "girlfriend",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_girlfriend.png?raw=true",
         "firstNight": 11,
-        "firstNightReminder": "Point to a good player and show their character.",
+        "firstNightReminder": "Point to a good player.",
         "reminders": [ "Drunk" ],
         "name": "Girlfriend",
         "team": "townsfolk",
-        "ability": "You start knowing a good player and their character. That player is drunk while you are alive."
+        "ability": "You start knowing a good player. That player is drunk while you are alive."
     },
     {
         "id": "monster",
@@ -144,17 +144,17 @@
         "reminders": [ "Chosen" ],
         "name": "Homeless",
         "team": "outsider",
-        "ability": "Each night*, you die. Each day, publicly choose a player: if they agree and are alive, both of you are drunk."
+        "ability": "Each night*, you die. Each day, if one alive player agrees, both of you are drunk until dawn."
     },
     {
         "id": "taxcollector",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_taxcollector.png?raw=true",
         "otherNight": 29,
-        "otherNightReminder": "Dead players may give their vote tokens to the Tax collector.",
+        "otherNightReminder": "?",
         "reminders": [ "Died today" ],
         "name": "Tax collector",
         "team": "outsider",
-        "ability": "When you die, dead players give you their vote tokens."
+        "ability": "???"
     },
     {
         "id": "acolyte",
