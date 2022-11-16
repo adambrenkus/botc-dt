@@ -21,9 +21,9 @@
         "id": "privateeye",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_privateeye.png?raw=true",
         "firstNight": 25,
-        "firstNightReminder": "The Private eye chooses a player, show thumbs down or thumbs up.",
+        "firstNightReminder": "Show thumbs down or thumbs up.",
         "otherNight": 25,
-        "otherNightReminder": "The Private eye chooses a player, show thumbs down or thumbs up.",
+        "otherNightReminder": "Show thumbs down or thumbs up.",
         "name": "Private eye",
         "team": "townsfolk",
         "ability": "Each night*, if there were at least 2 nominations today, learn if any of the nominators woke tonight due to their ability."
