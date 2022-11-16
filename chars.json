@@ -240,7 +240,7 @@
         "id": "camazotti",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_camazotti.png?raw=true",
         "otherNight": 13,
-        "otherNightReminder": "Camazotti chooses a player.",
+        "otherNightReminder": "Camazotti guesses up to 3 players.",
         "reminders": [ "Evil" ],
         "name": "Camazotti",
         "team": "demon",
