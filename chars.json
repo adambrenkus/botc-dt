@@ -244,7 +244,7 @@
         "reminders": [ "Evil" ],
         "name": "Camazotti",
         "team": "demon",
-        "ability": "Each night*, choose a player: they die. ???"
+        "ability": "Each night*, guess up to 3 characters and their players. Each player you get right dies. Dead players keep their abilities."
     },
     {
         "id": "chernobog",
