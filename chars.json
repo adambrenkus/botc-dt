@@ -194,7 +194,7 @@
         "reminders": [ "No ability", "Resurrected" ],
         "name": "Rasputin",
         "team": "minion",
-        "ability": "Once per game, at night*, you may choose a player. They are resurrected. You keep this ability while dead."
+        "ability": "Once per game, at night*, you may choose a player: they are resurrected. You keep this ability while dead."
     },
     {
         "id": "thecockroach",
@@ -205,7 +205,7 @@
         "name": "The Cockroach",
         "team": "minion",
         "setup": true,
-        "ability": "You think you are an outsider, but you are not. When you die, learn who the evil demons are. [+1 outsider]"
+        "ability": "You think you are an outsider, but you are not. When you die, you are woken to learn who the evil demons are. [+1 outsider]"
     },
     {
         "id": "thegoat",
@@ -224,7 +224,7 @@
         "otherNightReminder": "Nyrtho chooses a player.",
         "name": "Nyrtho",
         "team": "demon",
-        "ability": "Each night*, choose a player: they die. Whenever another player chooses a player due to their ability, their neighbour is chosen instead. Dead players keep their abilities."
+        "ability": "Each night*, choose a player: they die. Whenever another player chooses a player due to their ability, their neighbour is chosen instead."
     },
     {
         "id": "ghuul",
@@ -234,7 +234,7 @@
         "name": "Ghuul",
         "team": "demon",
         "setup": true,
-        "ability": "Each night*, choose a player: they die and you are resurrected. You register as dead. Evil loses if and only if no other evil players are alive. A minion starts knowing demon bluffs. [-1 outsider]"
+        "ability": "Each night*, choose a player: they die. Each night*, you are resurrected. You register as dead. Evil loses if and only if no other evil players are alive. A minion starts knowing demon bluffs. [-1 outsider]"
     },
     {
         "id": "camazotti",
@@ -244,7 +244,7 @@
         "reminders": [ "Evil" ],
         "name": "Camazotti",
         "team": "demon",
-        "ability": "Each night*, choose a player: they die. If a dead player is chosen, they might become evil."
+        "ability": "Each night*, choose a player: they die. ???"
     },
     {
         "id": "chernobog",
