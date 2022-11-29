@@ -38,7 +38,7 @@
         "reminders": [ "Chosen" ],
         "name": "Houndmaster",
         "team": "townsfolk",
-        "ability": "Each night, choose a player: learn if any of their townsfolk neighbour is dead."
+        "ability": "Each night*, choose a player: learn if any of their townsfolk neighbour is dead."
     },
     {
         "id": "graverobber",
@@ -144,7 +144,7 @@
         "reminders": [ "Chosen" ],
         "name": "Homeless",
         "team": "outsider",
-        "ability": "Each night, you or one of your good neighbours die. Each day, if one alive player agrees, you are both drunk until dusk."
+        "ability": "Each night*, one of your good neighbours die. Each day, if one alive player agrees, you are both drunk until dusk."
     },
     {
         "id": "voayeur",
@@ -154,7 +154,7 @@
         "reminders": [ "Dies tonigh", "Victim" ],
         "name": "Voayeur",
         "team": "outsider",
-        "ability": "You start knowing a character in play. If you are mad they are that character, they die at night. You are sober & healthy."
+        "ability": "You start knowing a character in play. They are drunk until you can guess which player it is at night. You are sober & healthy."
     },
     {
         "id": "acolyte",
@@ -224,7 +224,7 @@
         "otherNightReminder": "Nyrtho chooses a player.",
         "name": "Nyrtho",
         "team": "demon",
-        "ability": "Each night*, choose a player: they die. Whenever another player chooses a player due to their ability, their neighbour is chosen instead."
+        "ability": "Each night*, choose a player: they die. Whenever another player chooses a player due to their ability, their neighbour to the right is chosen instead."
     },
     {
         "id": "ghuul",
