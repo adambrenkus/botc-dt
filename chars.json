@@ -181,7 +181,7 @@
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_judas.png?raw=true",
         "otherNight": 18,
         "otherNightReminder": "Judas may choose a player.",
-        "reminders": [ "Demon", "Good" ],
+        "reminders": [ "Is a Judas, Evil" ],
         "name": "Judas",
         "team": "minion",
         "ability": "Once per game, at night*, choose a non-demon character: You become this character. If the character was in the game, they die and become a Judas."
@@ -189,10 +189,12 @@
     {
         "id": "rasputin",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_rasputin.png?raw=true",
+        "otherNight": 22,
+        "otherNightReminder": "A demon is resurrected if this is the first time a demon died.",
         "reminders": [ "No ability" ],
         "name": "Rasputin",
         "team": "minion",
-        "ability": "The first time a demon dies, they are resurrected at night. One townsfolk player registers as a demon."
+        "ability": "The first time a demon dies, they are resurrected at night."
     },
     {
         "id": "thecockroach",
@@ -209,8 +211,8 @@
         "id": "thegoat",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_thegoat.png?raw=true",
         "otherNight": 17,
-        "otherNightReminder": "If The Goat was nominated today, a player dies or The Goat dies.",
-        "reminders": [ "Dies tonight" ],
+        "otherNightReminder": "If The Goat was executed today, the player who nominated them becomes evil.",
+        "reminders": [ "Evil" ],
         "name": "The Goat",
         "team": "minion",
         "ability": "If you are executed, the player who nominated you becomes evil."
@@ -232,14 +234,13 @@
         "name": "Ghuul",
         "team": "demon",
         "setup": true,
-        "ability": "Each night*, choose a player: they die. Each night*, you are resurrected. You register as dead. Evil loses if and only if no other evil players are alive. A minion starts knowing demon bluffs instead of you. [-1 outsider]"
+        "ability": "Each night*, choose a player: they die. You register as dead and are resurrected each night. Evil loses if and only if no other evil players are alive. A minion starts knowing demon bluffs instead of you. [-1 outsider]"
     },
     {
         "id": "camazotti",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_camazotti.png?raw=true",
         "otherNight": 13,
         "otherNightReminder": "Camazotti guesses up to 3 players.",
-        "reminders": [ "Evil" ],
         "name": "Camazotti",
         "team": "demon",
         "ability": "Each night*, guess up to 3 characters and their players. Each player you get right dies. Dead players keep their abilities."
