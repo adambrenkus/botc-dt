@@ -15,7 +15,7 @@
         "reminders": [ "Chosen", "Chosen" ],
         "name": "City guard",
         "team": "townsfolk",
-        "ability": "Each night, choose 2 players: learn if any of them is an outsider."
+        "ability": "Each night, choose 2 players (not yourself): learn if any of them is an outsider."
     },
     {
         "id": "celebrity",
