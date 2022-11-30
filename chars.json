@@ -48,7 +48,7 @@
         "reminders": [ "No ability, Drunk, Chosen" ],
         "name": "Graverobber",
         "team": "townsfolk",
-        "ability": "Once per game, at night*, choose a player: learn their character and gain that character's ability. If you choose a demon or alive player, you are drunk."
+        "ability": "Once per game, at night, choose a player: learn their character and gain their ability. If you choose a demon or alive player, you are drunk."
     },
     {
         "id": "conspirator",
@@ -184,7 +184,7 @@
         "reminders": [ "Is a Judas, Evil" ],
         "name": "Judas",
         "team": "minion",
-        "ability": "Once per game, at night*, choose a non-demon character: You become this character. If the character was in the game, they die and become a Judas."
+        "ability": "Once per game, at night*, choose a non-demon character you become. If the character was in the game, they die and become a Judas."
     },
     {
         "id": "rasputin",
