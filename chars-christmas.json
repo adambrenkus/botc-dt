@@ -60,9 +60,9 @@
         "id": "mezepheles"
     },
     {
-        "id": "angel",
+        "id": "archangel",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_brute.png?raw=true",
-        "name": "Angel",
+        "name": "Archangel",
         "team": "townsfolk",
         "ability": "Minions are good and don't know who the demon is."
     },
