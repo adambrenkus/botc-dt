@@ -61,14 +61,14 @@
     },
     {
         "id": "archangel",
-        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_brute.png?raw=true",
+        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_archangel.png?raw=true",
         "name": "Archangel",
         "team": "townsfolk",
         "ability": "Minions are good and don't know who the demon is."
     },
     {
         "id": "krampus",
-        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_rasputin.png?raw=true",
+        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_krampus.png?raw=true",
         "otherNight": 22,
         "otherNightReminder": "Krampus chooses a player to die. A previously chosen player becomes alive.",
         "reminders": [ "Dead" ],
@@ -78,14 +78,14 @@
     },
     {
         "id": "jezuschrist",
-        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_therat.png?raw=true",
+        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_jezuschrist.png?raw=true",
         "name": "Jezus Christ",
         "team": "minion",
         "ability": "The first good player to die at night does not. Evil wins on 3rd dawn."
     },
     {
         "id": "Snowman",
-        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_thegoat.png?raw=true",
+        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_snowman.png?raw=true",
         "otherNight": 17,
         "otherNightReminder": "A player dies tonight. Snowmay may become alive.",
         "reminders": [ "Evil" ],
@@ -95,7 +95,7 @@
     },
     {
         "id": "santaclaus",
-        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_nyrtho.png?raw=true",
+        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_santaclaus.png?raw=true",
         "otherNight": 12,
         "otherNightReminder": "Santa chooses two players to receive presents.",
         "name": "Santa Claus",
@@ -104,7 +104,7 @@
     },
     {
         "id": "grinch",
-        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_ghuul.png?raw=true",
+        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_grinch.png?raw=true",
         "otherNight": 15,
         "otherNightReminder": "Grinch chooses a player, they die and Grinch learns and becomes their character.",
         "name": "Grinch",
@@ -114,7 +114,7 @@
     },
     {
         "id": "oneking",
-        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_camazotti.png?raw=true",
+        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_oneking.png?raw=true",
         "otherNight": 13,
         "otherNightReminder": "All other players choose whether to kill one of they neightbours. Evil wins if no one does.",
         "name": "One King",
@@ -123,7 +123,7 @@
     },
     {
         "id": "saintnicholas",
-        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_chernobog.png?raw=true",
+        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_saintnicholas.png?raw=true",
         "otherNight": 14,
         "otherNightReminder": "A good player dies.",
         "reminders": [ "Demon" ],
