@@ -154,7 +154,7 @@
         "reminders": [ "Dies tonigh", "Victim" ],
         "name": "Voayeur",
         "team": "outsider",
-        "ability": "You start knowing a character in play. They are drunk until you can guess which player it is at night. You are sober & healthy."
+        "ability": "You start knowing a character in play. They are drunk until you can guess which player it is."
     },
     {
         "id": "acolyte",
@@ -167,14 +167,14 @@
         "ability": "If you die, choose an alive player. They become a demon."
     },
     {
-        "id": "zombie",
+        "id": "monster",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_zombie.png?raw=true",
         "otherNight": 28,
         "otherNightReminder": "The Zombie may be resurrected.",
         "reminders": [ "Resurrected" ],
-        "name": "Zombie",
+        "name": "Monster",
         "team": "outsider",
-        "ability": "Each night*, you might be resurrected. You register as dead."
+        "ability": "Each night*, you might be resurrected.         All players know you are in the game. ??"
     },
     {
         "id": "judas",
@@ -215,7 +215,7 @@
         "reminders": [ "Evil" ],
         "name": "The Goat",
         "team": "minion",
-        "ability": "If you are executed, the player who nominated you becomes evil."
+        "ability": "The first time you are nominated, if you publicly claim to be the Goat, the player who nominated you becomes evil."
     },
     {
         "id": "nyrtho",
@@ -234,7 +234,7 @@
         "name": "Ghuul",
         "team": "demon",
         "setup": true,
-        "ability": "Each night*, choose a player: they die. You register as dead and are resurrected each night. Evil loses if and only if no other evil players are alive. A minion starts knowing demon bluffs instead of you. [-1 outsider]"
+        "ability": "You register as dead and are resurrected each night. Each night*, choose a player: they die. Minions are demons & you are a minion."
     },
     {
         "id": "camazotti",
@@ -243,7 +243,7 @@
         "otherNightReminder": "Camazotti guesses up to 3 players.",
         "name": "Camazotti",
         "team": "demon",
-        "ability": "Each night*, guess up to 3 characters and their players. Each player you get right dies. Dead players keep their abilities."
+        "ability": "Each night*, guess up to 3 characters and their players. Each player you get right dies. Dead players keep their abilities. [+servant]"
     },
     {
         "id": "chernobog",
@@ -255,6 +255,6 @@
         "reminders": [ "Demon" ],
         "name": "Chernobog",
         "team": "demon",
-        "ability": "A townsfolk player is a good demon, but does not know. When you die, that player learns he is a demon. Each night*, choose a player: they die. While the good demon lives, you may only choose his neighbours."
+        "ability": "You start knowing a good player. When you die, they become the Chernobog. Each night*, choose one of their alive neighbours: they die."
     }
 ]
