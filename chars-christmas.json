@@ -100,7 +100,7 @@
         "otherNightReminder": "Santa chooses two players to receive presents.",
         "name": "Santa Claus",
         "team": "demon",
-        "ability": "Each night*, choose 2 players with no presents: they choose whether to unwrap your present. If they do, they die. If 3 presents are unwrapped, evil wins."
+        "ability": "Each night*, choose 2 players with no presents: If they choose to unwrap it, they die or become poisoned. If 3 presents are wrapped, evil wins."
     },
     {
         "id": "grinch",
