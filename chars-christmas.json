@@ -1,0 +1,135 @@
+[
+    {
+        "id": "_meta",
+        "name": "Christmas party",
+        "author": "Adam Brenkus",
+        "logo": "https://github.com/adambrenkus/botc-dt/blob/main/exported/logo.png?raw=true"
+    },
+    {
+        "id": "empath"
+    },
+    {
+        "id": "huntsman"
+    },
+    {
+        "id": "empath"
+    },
+    {
+        "id": "investigator"
+    },
+    {
+        "id": "nightwatchman"
+    },
+    {
+        "id": "noble"
+    },
+    {
+        "id": "preacher"
+    },
+    {
+        "id": "professor"
+    },
+    {
+        "id": "oracle"
+    },
+    {
+        "id": "tealady"
+    },
+    {
+        "id": "undertaker"
+    },
+    {
+        "id": "virgin"
+    },
+    {
+        "id": "inkeeper"
+    },
+    {
+        "id": "golem"
+    },
+    {
+        "id": "damsel"
+    },
+    {
+        "id": "drunk"
+    },
+    {
+        "id": "saint"
+    },
+    {
+        "id": "mezepheles"
+    },
+    {
+        "id": "archangel",
+        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_brute.png?raw=true",
+        "name": "Archangel",
+        "team": "townsfolk",
+        "ability": "Minions are good and don't know who the demon is."
+    },
+    {
+        "id": "krampus",
+        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_rasputin.png?raw=true",
+        "otherNight": 22,
+        "otherNightReminder": "Krampus chooses a player to die. A previously chosen player becomes alive.",
+        "reminders": [ "Dead" ],
+        "name": "Krampus",
+        "team": "minion",
+        "ability": "Each night*, choose a player: If they are good, they die and may be resurrected next night."
+    },
+    {
+        "id": "jezuschrist",
+        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_therat.png?raw=true",
+        "name": "Jezus Christ",
+        "team": "minion",
+        "ability": "The first good player to die at night does not. Evil wins on 3rd dawn."
+    },
+    {
+        "id": "Snowman",
+        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_thegoat.png?raw=true",
+        "otherNight": 17,
+        "otherNightReminder": "A player dies tonight. Snowmay may become alive.",
+        "reminders": [ "Evil" ],
+        "name": "Snowman",
+        "team": "minion",
+        "ability": "3 good players know you are in the game. If all of them die, evil wins."
+    },
+    {
+        "id": "santaclaus",
+        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_nyrtho.png?raw=true",
+        "otherNight": 12,
+        "otherNightReminder": "Santa chooses two players to receive presents.",
+        "name": "Santa Claus",
+        "team": "demon",
+        "ability": "Each night*, choose 2 players with no presents: If they choose to unwrap it, they die or become poisoned. If 3 presents are wrapped, evil wins."
+    },
+    {
+        "id": "grinch",
+        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_ghuul.png?raw=true",
+        "otherNight": 15,
+        "otherNightReminder": "Grinch chooses a player, they die and Grinch learns and becomes their character.",
+        "name": "Grinch",
+        "team": "demon",
+        "setup": true,
+        "ability": "Each night*, choose a player, they die. You learn and become their character until the next night. [+1 outsider]"
+    },
+    {
+        "id": "oneking",
+        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_camazotti.png?raw=true",
+        "otherNight": 13,
+        "otherNightReminder": "All other players choose whether to kill one of they neightbours. Evil wins if no one does.",
+        "name": "One King",
+        "team": "demon",
+        "ability": "Each other player is woken at night: they may choose to kill one of their alive neighbours, if no one does, evil wins. [+2 kings, -2 minions]"
+    },
+    {
+        "id": "saintnicholas",
+        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_chernobog.png?raw=true",
+        "otherNight": 14,
+        "otherNightReminder": "A good player dies.",
+        "reminders": [ "Demon" ],
+        "name": "Saint Nicholas",
+        "setup": true,
+        "team": "demon",
+        "ability": "A good player who lied the most during the day dies at night. [+Krampus, +Angel]"
+    }
+]
