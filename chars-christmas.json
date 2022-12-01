@@ -119,7 +119,7 @@
         "otherNightReminder": "All other players choose whether to kill one of they neightbours. Evil wins if no one does.",
         "name": "One King",
         "team": "demon",
-        "ability": "Each other player is woken at night: they may choose to kill one of their alive neighbours, if no one does, evil wins. [+2 kings, -2 minions]"
+        "ability": "Each non-demon player is woken at night: they may choose to kill one of their alive neighbours, if no one does, evil wins. [+2 kings, -2 minions]"
     },
     {
         "id": "saintnicholas",
