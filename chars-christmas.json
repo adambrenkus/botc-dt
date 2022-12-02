@@ -97,10 +97,10 @@
         "id": "santaclaus",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_santaclaus.png?raw=true",
         "otherNight": 12,
-        "otherNightReminder": "Santa chooses two players to receive presents.",
+        "otherNightReminder": "Santa chooses two players: wake them, show this character selected you and show santa token. If they agree, they die or are poisoned.",
         "name": "Santa Claus",
         "team": "demon",
-        "ability": "Each night*, choose 2 players: If they choose to unwrap your present, they die or become poisoned. When 3 good players haven't unwrapped, evil wins."
+        "ability": "Each night*, choose 2 players: If they agree, they die or become poisoned. When 3 good players haven't agreed, evil wins."
     },
     {
         "id": "grinch",
@@ -120,7 +120,7 @@
         "name": "One King",
         "team": "demon",
         "setup": true,
-        "ability": "Each non-demon player is woken each night*: they may choose to kill one of their alive neighbours, if no one does, evil wins. [+2 kings, -2 minions]"
+        "ability": "Each non-demon player may kill one of their alive neighbours each* night, if no one does, evil wins. [+2 kings, -2 minions]"
     },
     {
         "id": "saintnicholas",
