@@ -120,10 +120,10 @@
         "id": "Servant",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_brute.png?raw=true",
         "otherNight": 11,
-        "otherNightReminder": "Frankenstein choses a player.",
-        "name": "Monster",
+        "otherNightReminder": "Servant chooses 3 alive players and may become the evil demon.",
+        "name": "Servant",
         "team": "townsfolk",
-        "ability": "When the demon dies, you become the evil demon. Each night*, choose 3 players, the demon may only kill them."
+        "ability": "When the demon dies, you become the evil demon. Each night*, choose 3 alive players, the demon may only kill them."
     },
     {
         "id": "organdonor",
@@ -209,11 +209,11 @@
         "id": "frankenstein",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_thegoat.png?raw=true",
         "otherNight": 17,
-        "otherNightReminder": "If The Goat was executed today, the player who nominated them becomes evil.",
+        "otherNightReminder": "Frankenstain chooses who becomes the monster.",
         "reminders": [ "Evil" ],
-        "name": "The Goat",
+        "name": "Frankenstein",
         "team": "minion",
-        "ability": "Each night*, you may choose who becomes the Monster. The previous monster then becomes their character. [+Monster]"
+        "ability": "Each night*, you may choose who becomes the Monster. The previous Monster then becomes their character. [+Monster]"
     },
     {
         "id": "nyrtho",
@@ -241,7 +241,7 @@
         "otherNightReminder": "Camazotti guesses up to 3 players.",
         "name": "Camazotti",
         "team": "demon",
-        "ability": "Each night*, choose a player: they die, if the servant is dead, his healthy townsfolk neighbour is poisoned. [+Servant]"
+        "ability": "Each night*, choose a player: they die, if the Servant is dead, Servant's healthy townsfolk neighbour is poisoned. [+Servant]"
     },
     {
         "id": "chernobog",
