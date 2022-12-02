@@ -70,7 +70,7 @@
         "id": "krampus",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_krampus.png?raw=true",
         "otherNight": 22,
-        "otherNightReminder": "Krampus chooses a player to die. A previously chosen player becomes alive.",
+        "otherNightReminder": "Krampus chooses a player to die. A previously chosen player may become alive.",
         "reminders": [ "Dead" ],
         "name": "Krampus",
         "team": "minion",
@@ -86,8 +86,8 @@
     {
         "id": "Snowman",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_snowman.png?raw=true",
-        "otherNight": 17,
-        "otherNightReminder": "A player dies tonight. Snowmay may become alive.",
+        "firstNight": 17,
+        "firstNightReminder": "Show Snowman token to 3 players.",
         "reminders": [ "Evil" ],
         "name": "Snowman",
         "team": "minion",
@@ -100,7 +100,7 @@
         "otherNightReminder": "Santa chooses two players to receive presents.",
         "name": "Santa Claus",
         "team": "demon",
-        "ability": "Each night*, choose 2 players with no presents: They receive a present, if they choose to unwrap it, they die or become poisoned. If 3 presents are wrapped, evil wins."
+        "ability": "Each night*, choose 2 players: If they choose to unwrap your present, they die or become poisoned. When 3 good players haven't unwrapped, evil wins."
     },
     {
         "id": "grinch",
@@ -116,9 +116,10 @@
         "id": "oneking",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_oneking.png?raw=true",
         "otherNight": 13,
-        "otherNightReminder": "All other players choose whether to kill one of they neightbours. Evil wins if no one does.",
+        "otherNightReminder": "All non-demon players choose whether to kill one of they neightbours. Evil wins if no one does.",
         "name": "One King",
         "team": "demon",
+        "setup": true,
         "ability": "Each non-demon player is woken each night*: they may choose to kill one of their alive neighbours, if no one does, evil wins. [+2 kings, -2 minions]"
     },
     {
