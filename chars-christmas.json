@@ -100,7 +100,7 @@
         "otherNightReminder": "Santa chooses two players: wake them, show this character selected you and show santa token. If they agree, they die or are poisoned.",
         "name": "Santa Claus",
         "team": "demon",
-        "ability": "Each night*, choose 2 players: If they agree, they die or become poisoned. When 3 good players haven't agreed, evil wins."
+        "ability": "Each night*, choose 2 players: If they agree, they are poisoned or die. If 3 good players haven't agreed, evil wins."
     },
     {
         "id": "grinch",
