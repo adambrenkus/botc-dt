@@ -69,7 +69,7 @@
         "reminders": [ "Dead", "Chosen" ],
         "name": "Angler",
         "team": "townsfolk",
-        "ability": "Each day, you may publicly choose a player (different to last day): you and that player can't die tonight. If 3 or more players are dead, one of you might die tonight instead."
+        "ability": "Each day, publicly choose a player (different to last day): tonight, none of you can die, if 3 or more players are dead, one of you dies instead."
     },
     {
         "id": "shaman",
@@ -78,7 +78,7 @@
         "otherNightReminder": "If the Shaman died tonight, show him a number.",
         "name": "Shaman",
         "team": "townsfolk",
-        "ability": "If you died today or tonight, learn how many dead players are evil."
+        "ability": "Dead players keep their abilities."
     },
     {
         "id": "pastor",
@@ -117,14 +117,13 @@
         "ability": "You start knowing a good player. That player is drunk while you are alive."
     },
     {
-        "id": "monster",
+        "id": "Servant",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_brute.png?raw=true",
         "otherNight": 11,
-        "otherNightReminder": "The Monster choses a player.",
-        "reminders": [ "Does not wake up" ],
+        "otherNightReminder": "Frankenstein choses a player.",
         "name": "Monster",
         "team": "townsfolk",
-        "ability": "Each night*, choose a player (different to last night): they don't wake up tonight."
+        "ability": "When the demon dies, you become the evil demon. Each night*, choose 3 players, the demon may only kill them."
     },
     {
         "id": "organdonor",
@@ -134,7 +133,7 @@
         "reminders": [ "Dies tonight", "Resurrected tonight" ],
         "name": "Organ donor",
         "team": "townsfolk",
-        "ability": "Each day, you may publicly ask another player what their character is. If they don't lie, you die tonight and they are resurrected."
+        "ability": "Each day, you may publicly ask another player what their character is. If they lie, you die tonight and they are resurrected."
     },
     {
         "id": "homeless",
@@ -147,14 +146,13 @@
         "ability": "Each night*, one of your good neighbours die. Each day, if one alive player agrees, you are both drunk until dusk."
     },
     {
-        "id": "voayeur",
+        "id": "voayer",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_actor.png?raw=true",
         "otherNight": 29,
-        "otherNightReminder": "A Voayeur's victim may die tonight.",
-        "reminders": [ "Dies tonigh", "Victim" ],
-        "name": "Voayeur",
+        "otherNightReminder": "Voayer might choose a player. They choose whether the Voayer dies.",
+        "name": "Voayer",
         "team": "outsider",
-        "ability": "You start knowing a character in play. They are drunk until you can guess which player it is."
+        "ability": "Some nights, choose a player (not yourself, different to previous nights): they choose whether you die."
     },
     {
         "id": "acolyte",
@@ -170,11 +168,11 @@
         "id": "monster",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_zombie.png?raw=true",
         "otherNight": 28,
-        "otherNightReminder": "The Zombie may be resurrected.",
+        "otherNightReminder": "The Monster may be resurrected.",
         "reminders": [ "Resurrected" ],
         "name": "Monster",
         "team": "outsider",
-        "ability": "Each night*, you might be resurrected.         All players know you are in the game. ??"
+        "ability": "You register as dead. Each night*, you may be resurrected."
     },
     {
         "id": "judas",
@@ -208,14 +206,14 @@
         "ability": "You think you are an outsider, but you are not. When you die, you are woken to learn who the evil demons are. [+1 outsider]"
     },
     {
-        "id": "thegoat",
+        "id": "frankenstein",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_thegoat.png?raw=true",
         "otherNight": 17,
         "otherNightReminder": "If The Goat was executed today, the player who nominated them becomes evil.",
         "reminders": [ "Evil" ],
         "name": "The Goat",
         "team": "minion",
-        "ability": "The first time you are nominated, if you publicly claim to be the Goat, the player who nominated you becomes evil."
+        "ability": "Each night*, you may choose who becomes the Monster. The previous monster then becomes their character. [+Monster]"
     },
     {
         "id": "nyrtho",
@@ -243,7 +241,7 @@
         "otherNightReminder": "Camazotti guesses up to 3 players.",
         "name": "Camazotti",
         "team": "demon",
-        "ability": "Each night*, guess up to 3 characters and their players. Each player you get right dies. Dead players keep their abilities. [+servant]"
+        "ability": "Each night*, choose a player: they die, if the servant is dead, his healthy townsfolk neighbour is poisoned. [+Servant]"
     },
     {
         "id": "chernobog",
@@ -255,6 +253,6 @@
         "reminders": [ "Demon" ],
         "name": "Chernobog",
         "team": "demon",
-        "ability": "You start knowing a good player. When you die, they become the Chernobog. Each night*, choose one of their alive neighbours: they die."
+        "ability": "You start knowing a good player. When you die, they become a Chernobog. Each night*, choose one of their alive neighbours: they die."
     }
 ]
