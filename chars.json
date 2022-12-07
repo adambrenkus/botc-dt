@@ -72,13 +72,11 @@
         "ability": "Each day, publicly choose a player (different to last day): tonight, none of you can die, if 3 or more players are dead, one of you dies instead."
     },
     {
-        "id": "shaman",
+        "id": "archangel",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_shaman.png?raw=true",
-        "otherNight": 23,
-        "otherNightReminder": "If the Shaman died tonight, show him a number.",
-        "name": "Shaman",
+        "name": "Archangel",
         "team": "townsfolk",
-        "ability": "Dead players keep their abilities."
+        "ability": "Minions are good and don't know who the demon is."
     },
     {
         "id": "pastor",
@@ -185,14 +183,14 @@
         "ability": "Once per game, at night*, choose a non-demon character you become. If the character was in the game, they die and become a Judas."
     },
     {
-        "id": "rasputin",
+        "id": "krampus",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_rasputin.png?raw=true",
         "otherNight": 22,
         "otherNightReminder": "A demon is resurrected if this is the first time a demon died.",
         "reminders": [ "No ability" ],
-        "name": "Rasputin",
+        "name": "krampus",
         "team": "minion",
-        "ability": "The first time a demon dies, they are resurrected at night."
+        "ability": "Each night*, choose a good alive player: They die and might be resurrected next night."
     },
     {
         "id": "thecockroach",
@@ -209,20 +207,20 @@
         "id": "frankenstein",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_thegoat.png?raw=true",
         "otherNight": 17,
-        "otherNightReminder": "Frankenstain chooses who becomes the monster.",
+        "otherNightReminder": "Frankenstein chooses who becomes the monster.",
         "reminders": [ "Evil" ],
         "name": "Frankenstein",
         "team": "minion",
         "ability": "Each night*, you may choose who becomes the Monster. The previous Monster then becomes their character. [+Monster]"
     },
     {
-        "id": "nyrtho",
+        "id": "oneking",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_nyrtho.png?raw=true",
         "otherNight": 12,
         "otherNightReminder": "Nyrtho chooses a player.",
-        "name": "Nyrtho",
+        "name": "One King",
         "team": "demon",
-        "ability": "Each night*, choose a player: they die. Whenever another player chooses a player due to their ability, their neighbour to the right is chosen instead."
+        "ability": "Each good player may choose one of their alive neighbours each night*. If no one does, evil wins. Only one evil player can die at night. [+2 kings, -2 minions]."
     },
     {
         "id": "ghuul",
@@ -232,16 +230,16 @@
         "name": "Ghuul",
         "team": "demon",
         "setup": true,
-        "ability": "You register as dead and are resurrected each night. Each night*, choose a player: they die. Minions are demons & you are a minion."
+        "ability": "You are resurrected each night. Each night*, choose a player: they die. Evil loses if & only if all minions are dead. [+1 minion]"
     },
     {
-        "id": "camazotti",
+        "id": "saintnicholas",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_camazotti.png?raw=true",
         "otherNight": 13,
         "otherNightReminder": "Camazotti guesses up to 3 players.",
-        "name": "Camazotti",
+        "name": "Saint Nicholas",
         "team": "demon",
-        "ability": "Each night*, choose a player: they die, if the Servant is dead, Servant's healthy townsfolk neighbour is poisoned. [+Servant]"
+        "ability": "If a player was mad they are a minion, the Archangel dies tonight. Each night*, choose a player: they die. [+Krampus, +Archangel]"
     },
     {
         "id": "chernobog",
