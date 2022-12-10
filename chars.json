@@ -170,7 +170,7 @@
         "reminders": [ "Resurrected" ],
         "name": "Monster",
         "team": "outsider",
-        "ability": "You register as dead. Each night*, you may be resurrected."
+        "ability": "Each night*, you may die, be poisoned or be resurrected."
     },
     {
         "id": "judas",
@@ -204,20 +204,20 @@
         "ability": "You think you are an outsider, but you are not. When you die, you are woken to learn who the evil demons are. [+1 outsider]"
     },
     {
-        "id": "frankenstein",
+        "id": "basilisk",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_thegoat.png?raw=true",
         "otherNight": 17,
-        "otherNightReminder": "Frankenstein chooses who becomes the monster.",
+        "otherNightReminder": "Basilisk chooses a player.",
         "reminders": [ "Evil" ],
-        "name": "Frankenstein",
+        "name": "Basilisk",
         "team": "minion",
-        "ability": "Each night*, you may choose who becomes the Monster. The previous Monster then becomes their character. [+Monster]"
+        "ability": "Each night*, choose a good player (not yourself): They learn who you are. When you die, all players that learned who you are die."
     },
     {
         "id": "oneking",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_nyrtho.png?raw=true",
         "otherNight": 12,
-        "otherNightReminder": "Nyrtho chooses a player.",
+        "otherNightReminder": "Each good player chooses whether a neighbour dies.",
         "name": "One King",
         "team": "demon",
         "ability": "Each good player may kill one of their alive neighbours each night*. If no one does, evil wins. Only 1 evil player can die at night. [+2 kings, -2 minions]."
@@ -230,16 +230,16 @@
         "name": "Ghuul",
         "team": "demon",
         "setup": true,
-        "ability": "You are resurrected each night. Each night*, choose a player: they die. Evil loses if & only if all minions are dead. [+1 minion]"
+        "ability": "Each night*, you are resurrected. Each night*, choose a player: they die. Evil loses if & only if all minions are dead. [+1 minion]"
     },
     {
         "id": "saintnicholas",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_camazotti.png?raw=true",
         "otherNight": 13,
-        "otherNightReminder": "Camazotti guesses up to 3 players.",
+        "otherNightReminder": "Saint nicholas chooses a player.",
         "name": "Saint Nicholas",
         "team": "demon",
-        "ability": "If a player was mad they are a minion, the Archangel dies tonight. Each night*, choose a player: they die. [+Krampus, +Archangel]"
+        "ability": "Each night*, choose a player: they die. If other player was mad about being a minion, the Archangel dies at night. [+Krampus, +Archangel]"
     },
     {
         "id": "chernobog",
