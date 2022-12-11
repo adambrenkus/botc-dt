@@ -15,7 +15,7 @@
         "reminders": [ "Chosen", "Chosen" ],
         "name": "City guard",
         "team": "townsfolk",
-        "ability": "Each night, choose 2 players (not yourself): learn if any of them is an outsider."
+        "ability": "Once per game, at night, choose a good character: If in the game, they become a prisoner."
     },
     {
         "id": "celebrity",
@@ -46,7 +46,7 @@
         "reminders": [ "No ability, Drunk, Chosen" ],
         "name": "Jezus Christ",
         "team": "townsfolk",
-        "ability": "The 1st townsfolk to die at night does not. Evil wins on your 3rd dawn."
+        "ability": "The 1st townsfolk to die at night does not. Evil wins on your 3rd dusk."
     },
     {
         "id": "conspirator",
@@ -57,7 +57,7 @@
         "otherNightReminder": "Show 2 character tokens.",
         "name": "Conspirator",
         "team": "townsfolk",
-        "ability": "Each night*, learn 1 player who will probably die next night."
+        "ability": "Each night*, learn a player who will probably die next night."
     },
     {
         "id": "baker",
@@ -94,13 +94,13 @@
         "ability": "If you die at night, choose a player: learn if they or any of their neighbours are a demon."
     },
     {
-        "id": "demigod",
+        "id": "duke",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_surgeon.png?raw=true",
         "otherNight": 19,
         "otherNightReminder": "The Surgeon may choose a player.",
-        "name": "Demigod",
+        "name": "Duke",
         "team": "townsfolk",
-        "ability": "."
+        "ability": "..."
     },
     {
         "id": "girlfriend",
@@ -161,14 +161,14 @@
         "ability": "You start knowing a not in play minion and townsfolk. When you die, choose which you become. You are evil if you choose the minion."
     },
     {
-        "id": "monster",
+        "id": "prisoner",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_zombie.png?raw=true",
         "otherNight": 28,
         "otherNightReminder": "The Monster may be resurrected.",
         "reminders": [ "Resurrected" ],
-        "name": "Monster",
+        "name": "Pirate",
         "team": "outsider",
-        "ability": "Each night*, you may die, be poisoned or be resurrected."
+        "ability": "While the City guard lives, you can't die. [+City guard]"
     },
     {
         "id": "judas",
@@ -199,7 +199,7 @@
         "name": "The Cockroach",
         "team": "minion",
         "setup": true,
-        "ability": "You think you are an outsider, but you are not. When you die, you are woken to learn who the evil demons are. [+1 evil outsider]"
+        "ability": "You think you are an outsider, but you are not. When you die, you learn who the evil demons are. [+1 evil outsider]"
     },
     {
         "id": "basilisk",
@@ -209,7 +209,7 @@
         "reminders": [ "Evil" ],
         "name": "Basilisk",
         "team": "minion",
-        "ability": "Each night*, choose a player (not yourself): They learn who you are. When you die, all chosen players die."
+        "ability": "Each night*, you may choose a player: They learn who you are. When you die, all chosen players die."
     },
     {
         "id": "oneking",
@@ -228,7 +228,7 @@
         "name": "Ghuul",
         "team": "demon",
         "setup": true,
-        "ability": "Each night*, you are resurrected. Each night*, choose a player: they die. Evil loses if & only if all minions are dead. [+1 minion]"
+        "ability": "Each night*, you are resurrected and choose a player: they die. Evil loses if & only if all minions are dead. [+1 minion]"
     },
     {
         "id": "saintnicholas",
@@ -237,7 +237,7 @@
         "otherNightReminder": "Saint nicholas chooses a player.",
         "name": "Saint Nicholas",
         "team": "demon",
-        "ability": "Each night*, choose a player: they die. If a player was mad about being a minion, the Archangel dies at night. [+Krampus, +Archangel]"
+        "ability": "Each night*, choose a player: they die. If a player was mad about being a minion, the Archangel might die at night. [+Krampus, +Archangel]"
     },
     {
         "id": "chernobog",
@@ -249,6 +249,6 @@
         "reminders": [ "Demon" ],
         "name": "Chernobog",
         "team": "demon",
-        "ability": "You start knowing a good player. When you die, they become a Chernobog. Each night*, choose one of their alive neighbours: they die."
+        "ability": "You start knowing a player. When you die, they become a demon. Each night*, choose one of their alive neighbours: they die."
     }
 ]
