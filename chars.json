@@ -38,7 +38,7 @@
         "reminders": [ "Chosen" ],
         "name": "Houndmaster",
         "team": "townsfolk",
-        "ability": "Each night*, choose a player: learn if any of their townsfolk neighbour is dead."
+        "ability": "Each night*, learn if any of your townsfolk neighbours are dead."
     },
     {
         "id": "jezuschrist",
@@ -94,13 +94,13 @@
         "ability": "If you die at night, choose a player: learn if they or any of their neighbours are a demon."
     },
     {
-        "id": "duke",
+        "id": "privateeye",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_surgeon.png?raw=true",
         "otherNight": 19,
         "otherNightReminder": "The Surgeon may choose a player.",
-        "name": "Duke",
+        "name": "Private eye",
         "team": "townsfolk",
-        "ability": "..."
+        "ability": "Each night, choose a character: learn if they are in play. Once per game, you might get wrong information."
     },
     {
         "id": "girlfriend",
@@ -119,7 +119,7 @@
         "otherNightReminder": "Servant chooses 2 alive players and may become the evil demon.",
         "name": "Servant",
         "team": "townsfolk",
-        "ability": "When the demon dies, you become the evil demon. Each night*, choose 2 other players, the demon may only kill them or you."
+        "ability": "When the demon dies, you become the evil demon..."
     },
     {
         "id": "shaman",
@@ -166,7 +166,7 @@
         "otherNight": 28,
         "otherNightReminder": "The Monster may be resurrected.",
         "reminders": [ "Resurrected" ],
-        "name": "Pirate",
+        "name": "Prisoner",
         "team": "outsider",
         "ability": "While the City guard lives, you can't die. [+City guard]"
     },
@@ -186,7 +186,7 @@
         "otherNight": 22,
         "otherNightReminder": "A demon is resurrected if this is the first time a demon died.",
         "reminders": [ "No ability" ],
-        "name": "krampus",
+        "name": "Krampus",
         "team": "minion",
         "ability": "Each night*, choose an alive player: If not a demon, they die and might be resurrected next night."
     },
