@@ -127,7 +127,7 @@
         "otherNight": 10,
         "otherNightReminder": "The Organ donor may die and the other player may be resurrected.",
         "reminders": [ "Dies tonight", "Resurrected tonight" ],
-        "name": "Shaman,
+        "name": "Shaman",
         "team": "townsfolk",
         "ability": "Once per game, during the day, publicly choose a character. If they are not in the game, an alive player becomes that character at night."
     },
