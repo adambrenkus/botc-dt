@@ -62,7 +62,7 @@
         "reminders": [ "Neighbour", "Evil's neighbour" ],
         "name": "Baker",
         "team": "townsfolk",
-        "ability": "You start knowing 3 characters, 1 is your neighbour, 1 is not in play and 1 is sitting next to an evil player."
+        "ability": "You start knowing 3 characters, 1 is your neighbour, 1 is not in play and 1 is a neighbour to an evil player."
     },
     {
         "id": "archangel",
@@ -130,7 +130,7 @@
         "reminders": [ "No ability", "Summoned" ],
         "name": "Shaman",
         "team": "townsfolk",
-        "ability": "Once per game, during the day, publicly choose a character. If they are not in the game, an alive player becomes that character at night."
+        "ability": "Once per game, during the day, publicly choose a character. If not in the game, an alive player becomes that character at night."
     },
     {
         "id": "homeless",
@@ -153,16 +153,16 @@
         "ability": "Some nights*, choose 2 players which you have not chosen yet (not yourself): they choose whether you die."
     },
     {
-        "id": "acolyte",
+        "id": "queen",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_taxcollector.png?raw=true",
         "firstNight": 9,
         "firstNightReminder": "Show a not in play townsfolk token and not in play minion token.",
         "otherNight": 9,
         "otherNightReminder": "If the Acolyte died today or tonight, they choose which character they become. They are evil if they choose the minion.",
         "reminders": [ "Evil", "Townsfolk", "Minion" ],
-        "name": "Acolyte",
+        "name": "Queen",
         "team": "outsider",
-        "ability": "You start knowing a not in play minion and townsfolk. When you die, choose which you become. You are evil if you choose the minion."
+        "ability": "You start knowing a character in play. If they are executed, your team loses."
     },
     {
         "id": "prisoner",
