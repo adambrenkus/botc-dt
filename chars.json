@@ -25,7 +25,7 @@
         "name": "Celebrity",
         "reminders": [ "Everyone drunk" ],
         "team": "townsfolk",
-        "ability": "3 players know you are in play, one of them is evil. When you die, all other players are drunk until dawn."
+        "ability": "TODO:3 players know you are in play, one of them is evil. When you die, all other players are drunk until dawn."
     },
     {
         "id": "houndmaster",
@@ -34,7 +34,7 @@
         "otherNightReminder": "Show thumbs down if both townsfolk neighbours are alive or thumbs up if any are dead.",
         "name": "Houndmaster",
         "team": "townsfolk",
-        "ability": "Each night*, learn if any of your townsfolk neighbours are dead."
+        "ability": "TODO:Each night*, learn if any of your townsfolk neighbours are dead."
     },
     {
         "id": "jezuschrist",
@@ -120,7 +120,7 @@
         "reminders": [ "Evil demon" ],
         "name": "Servant",
         "team": "townsfolk",
-        "ability": "Each night*, learn 1 character who died at night. When the demon dies, you become the evil demon."
+        "ability": "TODO:Each night*, learn 1 character who died at night. When the demon dies, you become the evil demon."
     },
     {
         "id": "shaman",
@@ -140,7 +140,7 @@
         "reminders": [ "Drunk", "Drunk" ],
         "name": "Homeless",
         "team": "outsider",
-        "ability": "Each night*, one of your good neighbours die. Each day, if one alive player agrees, you are both drunk until dusk."
+        "ability": "TODO:Each night*, one of your good neighbours die. Each day, if one alive player agrees, you are both drunk until dusk."
     },
     {
         "id": "voayer",
@@ -150,7 +150,7 @@
         "reminders": [ "Chosen", "Chosen" ],
         "name": "Voayer",
         "team": "outsider",
-        "ability": "Some nights*, choose 2 players which you have not chosen yet (not yourself): they choose whether you die."
+        "ability": "TODO:Some nights*, choose 2 players which you have not chosen yet (not yourself): they choose whether you die."
     },
     {
         "id": "queen",
@@ -220,7 +220,7 @@
         "otherNightReminder": "Each good player chooses whether a neighbour dies.",
         "name": "One King",
         "team": "demon",
-        "ability": "Each good player may kill one of their alive neighbours each night*. If no one does, evil wins. Only 1 evil player can die at night. [+2 kings, -2 minions]."
+        "ability": "TODO:Each good player may kill one of their alive neighbours each night*. If no one does, evil wins. Only 1 evil player can die at night. [+2 kings, -2 minions]."
     },
     {
         "id": "ghuul",
@@ -230,7 +230,7 @@
         "name": "Ghuul",
         "team": "demon",
         "setup": true,
-        "ability": "Each night*, you are resurrected and choose a player: they die. Evil loses if & only if all minions are dead. [+1 minion]"
+        "ability": "TODO:Each night*, you are resurrected and choose a player: they die. Evil loses if & only if all minions are dead. [+1 minion]"
     },
     {
         "id": "saintnicholas",
