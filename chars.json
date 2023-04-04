@@ -15,7 +15,7 @@
         "reminders": [ "No ability", "Prisoner", "Prisoner", "Prisoner" ],
         "name": "City guard",
         "team": "townsfolk",
-        "ability": "Once per game, at night, choose a good character: If in the game, they become a prisoner."
+        "ability": "Once per life, at night, choose a good character: If in the game, they become a prisoner."
     },
     {
         "id": "celebrity",
@@ -41,7 +41,8 @@
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_scholar.png?raw=true",
         "name": "Jezus Christ",
         "team": "townsfolk",
-        "ability": "The 1st townsfolk to die at night does not. Your team loses on your 3rd dusk."
+        "reminders": [ "1st dusk", "2nd dusk", "3rd dusk" ],
+        "ability": "The first townsfolk to die at night does not. Your team loses after third dusk."
     },
     {
         "id": "conspirator",
@@ -79,7 +80,7 @@
         "otherNightReminder": "The Surgeon may choose a player, they die. The other player they learned is resurrected.",
         "name": "Surgeon",
         "team": "townsfolk",
-        "ability": "You start knowing two players. Once per game, at night*, choose which one dies, the other is resurrected."
+        "ability": "You start knowing two players. Once per life, at night*, choose which one dies, the other is resurrected."
     },
     {
         "id": "falconer",
@@ -130,7 +131,7 @@
         "reminders": [ "No ability", "Summoned" ],
         "name": "Shaman",
         "team": "townsfolk",
-        "ability": "Once per game, during the day, publicly choose a character. If not in the game, an alive player becomes that character at night."
+        "ability": "Once per life, during the day, publicly choose a character. If not in the game, an alive player becomes that character at night."
     },
     {
         "id": "homeless",
@@ -140,29 +141,25 @@
         "reminders": [ "Drunk", "Drunk" ],
         "name": "Homeless",
         "team": "outsider",
-        "ability": "TODO:Each night*, one of your good neighbours die. Each day, if one alive player agrees, you are both drunk until dusk."
+        "ability": "You register as alive. Each night*, learn whether you are alive."
     },
     {
-        "id": "voayer",
+        "id": "oldharry",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_actor.png?raw=true",
-        "otherNight": 29,
-        "otherNightReminder": "Choose if the Voayer chooses 2 players. The chosen players decide whether the Voayer dies.",
-        "reminders": [ "Chosen", "Chosen" ],
-        "name": "Voayer",
+        "reminders": [ "Said"" ],
+        "name": "Old Harry",
         "team": "outsider",
-        "ability": "TODO:Some nights*, choose 2 players which you have not chosen yet (not yourself): they choose whether you die."
+        "ability": "The first time a player says your name, they die immediately."
     },
     {
-        "id": "queen",
+        "id": "bodyguard",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_taxcollector.png?raw=true",
         "firstNight": 9,
-        "firstNightReminder": "Show a not in play townsfolk token and not in play minion token.",
-        "otherNight": 9,
-        "otherNightReminder": "If the Acolyte died today or tonight, they choose which character they become. They are evil if they choose the minion.",
-        "reminders": [ "Evil", "Townsfolk", "Minion" ],
-        "name": "Queen",
+        "firstNightReminder": "Show a character token.",
+        "reminders": [ "Guarded" ],
+        "name": "Bodyguard",
         "team": "outsider",
-        "ability": "You start knowing a character in play. If they are executed, your team loses."
+        "ability": "You start knowing a character in play. If they are executed, you die instead."
     },
     {
         "id": "prisoner",
@@ -180,7 +177,7 @@
         "otherNightReminder": "Judas may choose a non-demon character to become. If they are in play, they die. Then wake that character's player and show them 'you are' and then Judas character token",
         "name": "Judas",
         "team": "minion",
-        "ability": "Once per game, at night*, choose a non-demon character you become. If the character was in the game, they die and become a Judas."
+        "ability": "Each night*, you may choose a non-demon character you become. If that character is in the game, they die and become a Judas."
     },
     {
         "id": "krampus",
@@ -211,7 +208,7 @@
         "reminders": [ "Evil" ],
         "name": "Basilisk",
         "team": "minion",
-        "ability": "Each night*, you may choose a player: They learn who you are. If you die, all chosen players die this night."
+        "ability": "Each night*, you may choose a player: They learn who you are. If you die, all chosen players die at night."
     },
     {
         "id": "oneking",
