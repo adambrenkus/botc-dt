@@ -146,7 +146,7 @@
     {
         "id": "oldharry",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_actor.png?raw=true",
-        "reminders": [ "Said"" ],
+        "reminders": [ "Said" ],
         "name": "Old Harry",
         "team": "outsider",
         "ability": "The first time a player says your name, they die immediately."
