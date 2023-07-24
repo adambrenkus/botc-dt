@@ -35,7 +35,7 @@
         "reminders": [ "Chosen" ],
         "name": "Stablekeeper",
         "team": "townsfolk",
-        "ability": "Once per game, during the day, publicly choose a traveller and a player. That player may choose to become the chosen traveller tonight."
+        "ability": "Once per game, during the day, publicly choose a traveller and another player. That player may choose to become the chosen traveller tonight."
     },
     {
         "id": "jezuschrist",
