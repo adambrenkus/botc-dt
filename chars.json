@@ -1,110 +1,113 @@
 [
     {
         "id": "_meta",
-        "name": "Death & Taxes",
+        "name": "Third Testament",
         "author": "Adam Brenkus",
         "logo": "https://github.com/adambrenkus/botc-dt/blob/main/exported/logo.png?raw=true"
     },
     {
         "id": "cityguard",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_cityguard.png?raw=true",
-        "firstNight": 10,
-        "firstNightReminder": "The City guard chooses 2 players, show whether any of them is an outsider.",
-        "otherNight": 22,
-        "otherNightReminder": "The City guard chooses 2 players, show whether any of them is an outsider.",
-        "reminders": [ "Chosen", "Chosen" ],
+        "firstNight": 7,
+        "firstNightReminder": "City guard may choose a non-demon character, they become a prisoner.",
+        "otherNight": 30,
+        "otherNightReminder": "City guard may choose a non-demon character, they become a prisoner.",
+        "reminders": [ "No ability", "Prisoner", "Prisoner", "Prisoner" ],
         "name": "City guard",
         "team": "townsfolk",
-        "ability": "Each night, choose 2 players (not yourself): learn if any of them is an outsider."
+        "ability": "Once per game, at night, choose a non-demon character: they become a prisoner."
     },
     {
-        "id": "celebrity",
+        "id": "mistress",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_privateeye.png?raw=true",
-        "firstNight": 25,
-        "firstNightReminder": "Show thumbs down or thumbs up.",
-        "otherNight": 25,
-        "otherNightReminder": "Show thumbs down or thumbs up.",
-        "name": "Celebrity",
+        "otherNight": 16,
+        "otherNightReminder": "If a mistress died today, one of the chosen players dies.",
+        "reminders": [ "Lover", "Lover" ],
+        "name": "Mistress",
         "team": "townsfolk",
-        "ability": "Players who choose you with their ability at night learn your character."
+        "ability": "On your 1st night, choose two players: they learn who you are. If you died today, one of them dies tonight."
+    },
+    {
+        "id": "stablekeeper",
+        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_houndmaster.png?raw=true",
+        "otherNight": 31,
+        "otherNightReminder": "If Stablekeeper chose a player today, show them this character selected you token and a Stablekeeper token. They choose whether they become a chosen traveller.",
+        "reminders": [ "Chosen" ],
+        "name": "Stablekeeper",
+        "team": "townsfolk",
+        "ability": "Once per game, during the day, publicly choose a traveller and a player. That player may choose to become the chosen traveller tonight."
+    },
+    {
+        "id": "jezuschrist",
+        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_scholar.png?raw=true",
+        "firstNight": 33,
+        "firstNightReminder": "Jezus Christ may point to a player. If they do, show thumbs or thumbs down.",
+        "otherNight": 33,
+        "otherNightReminder": "Jezus Christ may point to a player. If they do, show thumbs or thumbs down.",
+        "reminders": [ "No ability" ],
+        "name": "Jezus Christ",
+        "team": "townsfolk",
+        "ability": "Once per game, at night, choose a player. Learn whether they are evil."
+    },
+    {
+        "id": "prophet",
+        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_conspirator.png?raw=true",
+        "firstNight": 31,
+        "firstNightReminder": "Show thumbs up or thumbs down",
+        "otherNight": 31,
+        "otherNightReminder": "Show thumbs up or thumbs down",
+        "reminders": [ "Can't die" ],
+        "name": "Prophet",
+        "team": "townsfolk",
+        "ability": "Each night, learn whether you die next night. You can't die that night if you learned no."
+    },
+    {
+        "id": "baker",
+        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_angler.png?raw=true",
+        "firstNight": 10,
+        "firstNightReminder": "Show 3 character tokens",
+        "reminders": [ "Neighbour", "Evil's neighbour" ],
+        "name": "Baker",
+        "team": "townsfolk",
+        "ability": "You start knowing 3 characters, 1 is your neighbour, 1 is not in play and 1 is a neighbour to an evil player."
+    },
+    {
+        "id": "archangel",
+        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_shaman.png?raw=true",
+        "name": "Archangel",
+        "team": "townsfolk",
+        "ability": "Minions are your alignment and don't learn who the demon is."
     },
     {
         "id": "houndmaster",
-        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_houndmaster.png?raw=true",
-        "firstNight": 25,
-        "firstNightReminder": "The Houndmaster chooses a player, show thumbs down or thumbs up.",
-        "otherNight": 25,
-        "otherNightReminder": "The Houndmaster chooses a player, show thumbs down or thumbs up.",
-        "reminders": [ "Chosen" ],
+        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_surgeon.png?raw=true",
+        "firstNight": 9,
+        "firstNightReminder": "Show a number",
         "name": "Houndmaster",
         "team": "townsfolk",
-        "ability": "Each night*, choose a player: learn if any of their townsfolk neighbour is dead."
+        "setup": true,
+        "ability": "You start knowing how many outsiders are a neighbour to an evil player. [-1 or +1 outsider]"
     },
     {
-        "id": "graverobber",
-        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_scholar.png?raw=true",
-        "otherNight": 27,
-        "otherNightReminder": "The Graverobber may choose a player.",
-        "reminders": [ "No ability, Drunk, Chosen" ],
-        "name": "Graverobber",
-        "team": "townsfolk",
-        "ability": "Once per game, at night, choose a player: learn their character and gain their ability. If you choose a demon or alive player, you are drunk."
-    },
-    {
-        "id": "conspirator",
-        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_conspirator.png?raw=true",
-        "firstNight": 26,
-        "firstNightReminder": "Show 2 character tokens.",
-        "otherNight": 26,
-        "otherNightReminder": "Show 2 character tokens.",
-        "name": "Conspirator",
-        "team": "townsfolk",
-        "ability": "Each night, choose a player. Learn how many times they were chosen by other players at night."
-    },
-    {
-        "id": "angler",
-        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_angler.png?raw=true",
-        "otherNight": 7,
-        "otherNightReminder": "If the Angler has chosen a player during the day and 3 or more players are dead, they both may die.",
-        "reminders": [ "Dead", "Chosen" ],
-        "name": "Angler",
-        "team": "townsfolk",
-        "ability": "Each day, you may publicly choose a player (different to last day): you and that player can't die tonight. If 3 or more players are dead, one of you might die tonight instead."
-    },
-    {
-        "id": "shaman",
-        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_shaman.png?raw=true",
-        "otherNight": 23,
-        "otherNightReminder": "If the Shaman died tonight, show him a number.",
-        "name": "Shaman",
-        "team": "townsfolk",
-        "ability": "If you died today or tonight, learn how many dead players are evil."
-    },
-    {
-        "id": "pastor",
-        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_pastor.png?raw=true",
-        "reminders": [ "No deaths" ],
-        "name": "Pastor",
-        "team": "townsfolk",
-        "ability": "If a townsfolk was executed today, no townsfolk can die tonight."
-    },
-    {
-        "id": "falconer",
+        "id": "pigfarmer",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_falconer.png?raw=true",
-        "otherNight": 24,
-        "otherNightReminder": "If the Falconer died tonight, show thumbs up or thumbs down.",
-        "name": "Falconer",
+        "otherNight": 49,
+        "otherNightReminder": "If Pig farmer died today, show them a character token of another dead player.",
+        "name": "Pig farmer",
         "team": "townsfolk",
-        "ability": "If you die at night, choose a player: learn if they or any of their neighbours are a demon."
+        "ability": "If you died today, learn a character of another dead player."
     },
     {
-        "id": "surgeon",
-        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_surgeon.png?raw=true",
-        "otherNight": 19,
-        "otherNightReminder": "The Surgeon may choose a player.",
-        "name": "Surgeon",
+        "id": "privateeye",
+        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_privateeye.png?raw=true",
+        "otherNight": 48,
+        "otherNightReminder": "Private eye chooses a character, show thumbs up or thumbs down.",
+        "firstNight": 48,
+        "firstNightReminder": "Private eye chooses a character, show thumbs up or thumbs down.",
+        "reminders": [ "Was wrong" ],
+        "name": "Private eye",
         "team": "townsfolk",
-        "ability": "Once per game, at night*, choose a player: if they are a townsfolk, they die. Otherwise, they are resurrected."
+        "ability": "Each night, choose a character: learn if they are in play. Once per game, you might learn wrong information."
     },
     {
         "id": "girlfriend",
@@ -117,144 +120,144 @@
         "ability": "You start knowing a good player. That player is drunk while you are alive."
     },
     {
-        "id": "monster",
+        "id": "cremator",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_brute.png?raw=true",
-        "otherNight": 11,
-        "otherNightReminder": "The Monster choses a player.",
-        "reminders": [ "Does not wake up" ],
-        "name": "Monster",
+        "otherNight": 37,
+        "otherNightReminder": "A good player becomes drunk if evil died today. Show the Cremator a number.",
+        "reminders": [ "Drunk" ],
+        "name": "Cremator",
         "team": "townsfolk",
-        "ability": "Each night*, choose a player (different to last night): they don't wake up tonight."
+        "ability": "If an evil player died today, a good player is drunk until dusk tomorrow. Each night*, learn how many players are drunk or poisoned."
     },
     {
-        "id": "organdonor",
-        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_organdonor.png?raw=true",
-        "otherNight": 10,
-        "otherNightReminder": "The Organ donor may die and the other player may be resurrected.",
-        "reminders": [ "Dies tonight", "Resurrected tonight" ],
-        "name": "Organ donor",
+        "id": "shaman",
+        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_shaman.png?raw=true",
+        "otherNight": 32,
+        "otherNightReminder": "If the Shaman chose a character today, show 'you are' token to a player and then the chosen character token",
+        "reminders": [ "No ability", "Summons tonight" ],
+        "name": "Shaman",
         "team": "townsfolk",
-        "ability": "Each day, you may publicly ask another player what their character is. If they don't lie, you die tonight and they are resurrected."
+        "ability": "Once per game, during the day, publicly choose a character. If not in the game, an alive player becomes that character this night."
     },
     {
-        "id": "homeless",
+        "id": "zombie",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_homeless.png?raw=true",
-        "otherNight": 30,
-        "otherNightReminder": "The homeless may die.",
-        "reminders": [ "Chosen" ],
-        "name": "Homeless",
+        "otherNight": 20,
+        "otherNightReminder": "The zombie might be resurrected.",
+        "reminders": [ "No ability" ],
+        "name": "Zombie",
         "team": "outsider",
-        "ability": "Each night*, one of your good neighbours die. Each day, if one alive player agrees, you are both drunk until dusk."
+        "ability": "Once per game, at night, you might be resurrected."
     },
     {
-        "id": "voayeur",
+        "id": "oldharry",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_actor.png?raw=true",
-        "otherNight": 29,
-        "otherNightReminder": "A Voayeur's victim may die tonight.",
-        "reminders": [ "Dies tonigh", "Victim" ],
-        "name": "Voayeur",
+        "reminders": [ "No ability" ],
+        "name": "Old Harry",
         "team": "outsider",
-        "ability": "You start knowing a character in play. They are drunk until you can guess which player it is."
+        "ability": "The first time an alive player says 'Old Harry', they die immediately."
     },
     {
-        "id": "acolyte",
+        "id": "bodyguard",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_taxcollector.png?raw=true",
-        "otherNight": 9,
-        "otherNightReminder": "The Acolyte may choose an alive player.",
-        "reminders": [ "Died today" ],
-        "name": "Acolyte",
+        "firstNight": 9,
+        "firstNightReminder": "Point to a player.",
+        "reminders": [ "Guarded" ],
+        "name": "Bodyguard",
         "team": "outsider",
-        "ability": "If you die, choose an alive player. They become a demon."
+        "ability": "You start knowing a player. If they are executed, you die instead."
     },
     {
-        "id": "monster",
+        "id": "prisoner",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_zombie.png?raw=true",
-        "otherNight": 28,
-        "otherNightReminder": "The Zombie may be resurrected.",
-        "reminders": [ "Resurrected" ],
-        "name": "Monster",
+        "name": "Prisoner",
         "team": "outsider",
-        "ability": "Each night*, you might be resurrected.         All players know you are in the game. ??"
+        "setup": true,
+        "ability": "While the City guard lives, you can't die. [+City guard]"
     },
     {
         "id": "judas",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_judas.png?raw=true",
-        "otherNight": 18,
-        "otherNightReminder": "Judas may choose a player.",
-        "reminders": [ "Is a Judas, Evil" ],
+        "reminders": [ "No ability" ],
+        "otherNight": 10,
+        "otherNightReminder": "Judas may choose a non-demon character to become. Wake that character and show them 'you are' token and then Judas token",
         "name": "Judas",
         "team": "minion",
-        "ability": "Once per game, at night*, choose a non-demon character you become. If the character was in the game, they die and become a Judas."
+        "ability": "Each night*, you may choose a character you become. If that character is in the game, they die and become a Judas."
     },
     {
-        "id": "rasputin",
+        "id": "krampus",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_rasputin.png?raw=true",
-        "otherNight": 22,
-        "otherNightReminder": "A demon is resurrected if this is the first time a demon died.",
-        "reminders": [ "No ability" ],
-        "name": "Rasputin",
+        "otherNight": 19,
+        "otherNightReminder": "Krampus points to alive player. A player chosen the previous night might be resurrected.",
+        "reminders": [ "Might be resurrected" ],
+        "name": "Krampus",
         "team": "minion",
-        "ability": "The first time a demon dies, they are resurrected at night."
+        "ability": "Each night*, choose an alive player: If not a demon, they die and might be resurrected next night."
     },
     {
         "id": "thecockroach",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_therat.png?raw=true",
         "otherNight": 21,
-        "otherNightReminder": "The Cockroach might learn who the evil demons are.",
-        "reminders": [ "Died today" ],
+        "otherNightReminder": "If Cockroach died today, point to evil demons.",
+        "reminders": [ "Learn demons" ],
         "name": "The Cockroach",
         "team": "minion",
         "setup": true,
-        "ability": "You think you are an outsider, but you are not. When you die, you are woken to learn who the evil demons are. [+1 outsider]"
+        "ability": "You think you are an outsider, but you are not. When you die, you learn who the evil demons are. [+1 evil outsider]"
     },
     {
-        "id": "thegoat",
+        "id": "basilisk",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_thegoat.png?raw=true",
-        "otherNight": 17,
-        "otherNightReminder": "If The Goat was executed today, the player who nominated them becomes evil.",
-        "reminders": [ "Evil" ],
-        "name": "The Goat",
+        "firstNight": 11,
+        "firstNightReminder": "Basilisk points to a player, wake them and show 'this player is' token and point to the Basilisk.",
+        "otherNight": 11,
+        "otherNightReminder": "Basilisk points to a player, wake them and show 'this player is' token and point to the Basilisk. All chosen player die this night if Basilisk died today.",
+        "reminders": [ "Chosen", "Chosen", "Chosen", "Chosen", "Chosen", "All die" ],
+        "name": "Basilisk",
         "team": "minion",
-        "ability": "The first time you are nominated, if you publicly claim to be the Goat, the player who nominated you becomes evil."
+        "ability": "Each night, you may choose a player: they learn who you are. If you die, all chosen players die this night."
     },
     {
-        "id": "nyrtho",
+        "id": "kugutsu",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_nyrtho.png?raw=true",
         "otherNight": 12,
-        "otherNightReminder": "Nyrtho chooses a player.",
-        "name": "Nyrtho",
+        "otherNightReminder": "Kugutsu points to a player. Choose a player who dies.",
+        "name": "Kugutsu",
         "team": "demon",
-        "ability": "Each night*, choose a player: they die. Whenever another player chooses a player due to their ability, their neighbour to the right is chosen instead."
+        "ability": "Each night*, choose a player: they are evil until dusk. A player dies each night*."
     },
     {
         "id": "ghuul",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_ghuul.png?raw=true",
-        "otherNight": 15,
-        "otherNightReminder": "Ghuul chooses a player.",
+        "otherNight": 13,
+        "otherNightReminder": "Ghuul is resurrected. Ghuul points to a player.",
         "name": "Ghuul",
         "team": "demon",
         "setup": true,
-        "ability": "You register as dead and are resurrected each night. Each night*, choose a player: they die. Minions are demons & you are a minion."
+        "ability": "Each night*, you are resurrected and choose a player: they die. Evil loses if & only if all other evil players are dead."
     },
     {
-        "id": "camazotti",
+        "id": "saintnicholas",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_camazotti.png?raw=true",
-        "otherNight": 13,
-        "otherNightReminder": "Camazotti guesses up to 3 players.",
-        "name": "Camazotti",
+        "otherNight": 14,
+        "otherNightReminder": "Saint nicholas points to a player. The Archangel might die if a player was mad about being a minion.",
+        "reminders": [ "Archangel dies" ],
+        "name": "Saint nicholas",
         "team": "demon",
-        "ability": "Each night*, guess up to 3 characters and their players. Each player you get right dies. Dead players keep their abilities. [+servant]"
+        "setup": true,
+        "ability": "Each night*, choose a player: they die. If a player was mad about being a minion, the Archangel might die at night. [+Krampus, +Archangel]"
     },
     {
         "id": "chernobog",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_chernobog.png?raw=true",
-        "firstNight": 7,
+        "firstNight": 9,
         "firstNightReminder": "Point to the good demon.",
-        "otherNight": 14,
-        "otherNightReminder": "Chernobog chooses a player.",
-        "reminders": [ "Demon" ],
+        "otherNight": 9,
+        "otherNightReminder": "Chernobog points to a player.",
+        "reminders": [ "Belobog", "Demon" ],
         "name": "Chernobog",
         "team": "demon",
-        "ability": "You start knowing a good player. When you die, they become the Chernobog. Each night*, choose one of their alive neighbours: they die."
+        "ability": "You start knowing a player. When you die, they become a demon. Each night*, choose one of their alive neighbours: they die."
     }
 ]
