@@ -210,7 +210,7 @@
         "id": "basilisk",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_thegoat.png?raw=true",
         "firstNight": 17,
-        "firstNightReminder": "Basilisk points to a player, wake them and show 'this player is' token and point to the Basilisk."
+        "firstNightReminder": "Basilisk points to a player, wake them and show 'this player is' token and point to the Basilisk.",
         "otherNight": 17,
         "otherNightReminder": "Basilisk points to a player, wake them and show 'this player is' token and point to the Basilisk. All chosen player die this night if Basilisk died today.",
         "reminders": [ "Chosen", "Chosen", "Chosen", "Chosen", "Chosen", "All die" ],
