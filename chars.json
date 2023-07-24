@@ -251,9 +251,9 @@
     {
         "id": "chernobog",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_chernobog.png?raw=true",
-        "firstNight": 15,
+        "firstNight": 9,
         "firstNightReminder": "Point to the good demon.",
-        "otherNight": 15,
+        "otherNight": 9,
         "otherNightReminder": "Chernobog points to a player.",
         "reminders": [ "Belobog", "Demon" ],
         "name": "Chernobog",
