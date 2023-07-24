@@ -19,7 +19,7 @@
     },
     {
         "id": "mistress",
-        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_privateeye.png?raw=true",
+        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_mistress.png?raw=true",
         "otherNight": 16,
         "otherNightReminder": "If a mistress died today, one of the chosen players dies.",
         "reminders": [ "Lover", "Lover" ],
@@ -29,7 +29,7 @@
     },
     {
         "id": "stablekeeper",
-        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_houndmaster.png?raw=true",
+        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_stablekeeper.png?raw=true",
         "otherNight": 31,
         "otherNightReminder": "If Stablekeeper chose a player today, show them this character selected you token and a Stablekeeper token. They choose whether they become a chosen traveller.",
         "reminders": [ "Chosen" ],
@@ -39,7 +39,7 @@
     },
     {
         "id": "jezuschrist",
-        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_scholar.png?raw=true",
+        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_jezuschrist.png?raw=true",
         "firstNight": 33,
         "firstNightReminder": "Jezus Christ may point to a player. If they do, show thumbs or thumbs down.",
         "otherNight": 33,
@@ -51,7 +51,7 @@
     },
     {
         "id": "prophet",
-        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_conspirator.png?raw=true",
+        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_prophet.png?raw=true",
         "firstNight": 31,
         "firstNightReminder": "Show thumbs up or thumbs down",
         "otherNight": 31,
@@ -63,7 +63,7 @@
     },
     {
         "id": "baker",
-        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_angler.png?raw=true",
+        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_baker.png?raw=true",
         "firstNight": 10,
         "firstNightReminder": "Show 3 character tokens",
         "reminders": [ "Neighbour", "Evil's neighbour" ],
@@ -73,14 +73,14 @@
     },
     {
         "id": "archangel",
-        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_shaman.png?raw=true",
+        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_archangel.png?raw=true",
         "name": "Archangel",
         "team": "townsfolk",
         "ability": "Minions are your alignment and don't learn who the demon is."
     },
     {
         "id": "houndmaster",
-        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_surgeon.png?raw=true",
+        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_houndmaster.png?raw=true",
         "firstNight": 9,
         "firstNightReminder": "Show a number",
         "name": "Houndmaster",
@@ -90,7 +90,7 @@
     },
     {
         "id": "pigfarmer",
-        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_falconer.png?raw=true",
+        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_pigfarmer.png?raw=true",
         "otherNight": 49,
         "otherNightReminder": "If Pig farmer died today, show them a character token of another dead player.",
         "name": "Pig farmer",
@@ -121,7 +121,7 @@
     },
     {
         "id": "cremator",
-        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_brute.png?raw=true",
+        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_cremator.png?raw=true",
         "otherNight": 37,
         "otherNightReminder": "A good player becomes drunk if evil died today. Show the Cremator a number.",
         "reminders": [ "Drunk" ],
@@ -141,7 +141,7 @@
     },
     {
         "id": "zombie",
-        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_homeless.png?raw=true",
+        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_zombie.png?raw=true",
         "otherNight": 20,
         "otherNightReminder": "The zombie might be resurrected.",
         "reminders": [ "No ability" ],
@@ -151,7 +151,7 @@
     },
     {
         "id": "oldharry",
-        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_actor.png?raw=true",
+        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_oldharry.png?raw=true",
         "reminders": [ "No ability" ],
         "name": "Old Harry",
         "team": "outsider",
@@ -159,7 +159,7 @@
     },
     {
         "id": "bodyguard",
-        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_taxcollector.png?raw=true",
+        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_bodyguard.png?raw=true",
         "firstNight": 9,
         "firstNightReminder": "Point to a player.",
         "reminders": [ "Guarded" ],
@@ -169,7 +169,7 @@
     },
     {
         "id": "prisoner",
-        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_zombie.png?raw=true",
+        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_prisoner.png?raw=true",
         "name": "Prisoner",
         "team": "outsider",
         "setup": true,
@@ -187,7 +187,7 @@
     },
     {
         "id": "krampus",
-        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_rasputin.png?raw=true",
+        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_krampus.png?raw=true",
         "otherNight": 19,
         "otherNightReminder": "Krampus points to alive player. A player chosen the previous night might be resurrected.",
         "reminders": [ "Might be resurrected" ],
@@ -197,7 +197,7 @@
     },
     {
         "id": "thecockroach",
-        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_therat.png?raw=true",
+        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_cockroach.png?raw=true",
         "otherNight": 21,
         "otherNightReminder": "If Cockroach died today, point to evil demons.",
         "reminders": [ "Learn demons" ],
@@ -208,7 +208,7 @@
     },
     {
         "id": "basilisk",
-        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_thegoat.png?raw=true",
+        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_basilisk.png?raw=true",
         "firstNight": 11,
         "firstNightReminder": "Basilisk points to a player, wake them and show 'this player is' token and point to the Basilisk.",
         "otherNight": 11,
@@ -220,7 +220,7 @@
     },
     {
         "id": "kugutsu",
-        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_nyrtho.png?raw=true",
+        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_kugutsu.png?raw=true",
         "otherNight": 12,
         "otherNightReminder": "Kugutsu points to a player. Choose a player who dies.",
         "name": "Kugutsu",
@@ -239,7 +239,7 @@
     },
     {
         "id": "saintnicholas",
-        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_camazotti.png?raw=true",
+        "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_saintnicholas.png?raw=true",
         "otherNight": 14,
         "otherNightReminder": "Saint nicholas points to a player. The Archangel might die if a player was mad about being a minion.",
         "reminders": [ "Archangel dies" ],
