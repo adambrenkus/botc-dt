@@ -113,12 +113,12 @@
         "ability": "You start knowing a good player. That player is drunk while you are alive."
     },
     {
-        "id": "Servant",
+        "id": "cremator",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_brute.png?raw=true",
         "otherNight": 11,
         "otherNightReminder": "Show a character of one player who died this night. Or shake your head if no one died.",
         "reminders": [ "Evil demon" ],
-        "name": "Servant",
+        "name": "Cremator",
         "team": "townsfolk",
         "ability": "If an evil player died today, a good player is drunk for 1 day and 1 night. Each night, learn how many players are drunk or poisoned."
     },
@@ -130,7 +130,7 @@
         "reminders": [ "No ability", "Summoned" ],
         "name": "Shaman",
         "team": "townsfolk",
-        "ability": "Once per game, during the day, publicly choose a character. If not in the game, an alive player becomes that character at night."
+        "ability": "Once per game, during the day, publicly choose a character. If not in the game, an alive player becomes that character this night."
     },
     {
         "id": "zombie",
