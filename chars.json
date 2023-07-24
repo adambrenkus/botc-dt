@@ -1,7 +1,7 @@
 [
     {
         "id": "_meta",
-        "name": "Death & Taxes",
+        "name": "Third Testament",
         "author": "Adam Brenkus",
         "logo": "https://github.com/adambrenkus/botc-dt/blob/main/exported/logo.png?raw=true"
     },
@@ -18,22 +18,22 @@
         "ability": "Once per game, at night, choose a non-demon character: they become a prisoner."
     },
     {
-        "id": "celebrity",
+        "id": "mistress",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_privateeye.png?raw=true",
         "firstNight": 25,
         "firstNightReminder": "Show Celebrity character token to 2 chosen characters",
-        "name": "Celebrity",
+        "name": "Mistress",
         "team": "townsfolk",
-        "ability": "On your 1st night, choose two players: they learn who you are. When you die, one of them also dies."
+        "ability": "On your 1st night, choose two players: they learn who you are. If you died today, one of them dies tonight."
     },
     {
-        "id": "houndmaster",
+        "id": "stablekeeper",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_houndmaster.png?raw=true",
         "otherNight": 25,
         "otherNightReminder": "Show thumbs down if both townsfolk neighbours are alive or thumbs up if any are dead.",
-        "name": "Houndmaster",
+        "name": "Stablekeeper",
         "team": "townsfolk",
-        "ability": "TODO:Each night*, learn if any of your townsfolk neighbours are dead."
+        "ability": "Once per game, during the day, you may publicly choose a traveller and a player. That player may choose to become this traveller tonight."
     },
     {
         "id": "jezuschrist",
@@ -72,23 +72,23 @@
         "ability": "Minions are your alignment and don't learn who the demon is."
     },
     {
-        "id": "vestal",
+        "id": "houndmaster",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_surgeon.png?raw=true",
         "reminders": [ "Not a demon", "Not a demon", "Not a demon", "Not a demon" ],
         "otherNight": 19,
         "otherNightReminder": "The Surgeon may choose a player, they die. The other player they learned is resurrected.",
-        "name": "Vestal",
+        "name": "Houndmaster",
         "team": "townsfolk",
-        "ability": "TODO:You start knowing 1 evil character and 2 townsfolk characters in play, one of which is wrong"
+        "ability": "You start knowing how many outsiders are a neighbour to an evil player. [-1 or +1 outsider]"
     },
     {
-        "id": "graverobber",
+        "id": "summoner",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_falconer.png?raw=true",
         "otherNight": 34,
         "otherNightReminder": "Graverobber may choose to learn how many dead players are evil.",
-        "name": "Graverobber",
+        "name": "Summoner",
         "team": "townsfolk",
-        "ability": "TODO"
+        "ability": "todo:"
     },
     {
         "id": "privateeye",
@@ -120,7 +120,7 @@
         "reminders": [ "Evil demon" ],
         "name": "Servant",
         "team": "townsfolk",
-        "ability": "TODO:Each night*, learn 1 character who died at night. When the demon dies, you become the evil demon."
+        "ability": "If an evil player died today, a good player is drunk for 1 day and 1 night. Each night, learn how many players are drunk or poisoned."
     },
     {
         "id": "shaman",
@@ -235,7 +235,7 @@
         "otherNight": 13,
         "otherNightReminder": "Saint nicholas chooses a player. The Archangel might die if a player was mad about being a minion.",
         "reminders": [ "Archangel dies" ],
-        "name": "Saint Nicholas",
+        "name": "Saint nicholas",
         "team": "demon",
         "setup": true,
         "ability": "Each night*, choose a player: they die. If a player was mad about being a minion, the Archangel might die at night. [+Krampus, +Archangel]"
