@@ -76,7 +76,7 @@
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_archangel.png?raw=true",
         "name": "Archangel",
         "team": "townsfolk",
-        "ability": "Minions are your alignment and don't learn who the demon is."
+        "ability": "On your first night, minions become your alignment and don't learn who the demon is. When you die, minions become good."
     },
     {
         "id": "houndmaster",
@@ -107,7 +107,7 @@
         "reminders": [ "Was wrong" ],
         "name": "Private eye",
         "team": "townsfolk",
-        "ability": "Each night, choose a character: learn if they are in play. Once per game, you might learn wrong information."
+        "ability": "Each night, choose a character: learn if they are in play. Once per game, at night, you are drunk."
     },
     {
         "id": "girlfriend",
