@@ -33,15 +33,15 @@
         "otherNightReminder": "Show thumbs down if both townsfolk neighbours are alive or thumbs up if any are dead.",
         "name": "Stablekeeper",
         "team": "townsfolk",
-        "ability": "Once per game, during the day, you may publicly choose a traveller and a player. That player may choose to become this traveller tonight."
+        "ability": "Once per game, during the day, you may publicly choose a traveller and a player. That player may choose to become the chosen traveller tonight."
     },
     {
         "id": "jezuschrist",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_scholar.png?raw=true",
         "name": "Jezus Christ",
         "team": "townsfolk",
-        "reminders": [ "1st dusk", "2nd dusk", "3rd dusk" ],
-        "ability": "The 1st time a player uses a vote token, they are resurrected at night. Even when you are dead."
+        "reminders": [ "1st day", "2nd day", "3rd day" ],
+        "ability": "Once per game, at night, choose a player. Learn whether they are evil."
     },
     {
         "id": "prophet",
@@ -52,7 +52,7 @@
         "firstNightReminder": "Point to a player who will most likely die the next night.",
         "name": "Prophet",
         "team": "townsfolk",
-        "ability": "Each night, learn whether you will die next night. You can't die that night if you learned no."
+        "ability": "Each night, learn whether you die next night. You can't die that night if you learned no."
     },
     {
         "id": "baker",
@@ -82,13 +82,13 @@
         "ability": "You start knowing how many outsiders are a neighbour to an evil player. [-1 or +1 outsider]"
     },
     {
-        "id": "summoner",
+        "id": "pigfarmer",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_falconer.png?raw=true",
         "otherNight": 34,
         "otherNightReminder": "Graverobber may choose to learn how many dead players are evil.",
-        "name": "Summoner",
+        "name": "Pig Farmer",
         "team": "townsfolk",
-        "ability": "todo:"
+        "ability": "If you died today, learn a character of another dead player."
     },
     {
         "id": "privateeye",
@@ -120,7 +120,7 @@
         "reminders": [ "Evil demon" ],
         "name": "Cremator",
         "team": "townsfolk",
-        "ability": "If an evil player died today, a good player is drunk for 1 day and 1 night. Each night, learn how many players are drunk or poisoned."
+        "ability": "If an evil player died today, a good player is drunk until dusk tomorrow. Each night, learn how many players are drunk or poisoned."
     },
     {
         "id": "shaman",
