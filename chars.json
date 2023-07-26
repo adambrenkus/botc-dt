@@ -243,7 +243,7 @@
         "otherNight": 14,
         "otherNightReminder": "Saint nicholas points to a player. The Archangel might die if a player was mad about being a minion.",
         "reminders": [ "Archangel dies" ],
-        "name": "Saint nicholas",
+        "name": "Saint Nicholas",
         "team": "demon",
         "setup": true,
         "ability": "Each night*, choose a player: they die. If a player was mad about being a minion, the Archangel might die at night. [+Krampus, +Archangel]"
