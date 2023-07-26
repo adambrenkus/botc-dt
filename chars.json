@@ -30,12 +30,12 @@
     {
         "id": "stablekeeper",
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_stablekeeper.png?raw=true",
-        "otherNight": 31,
-        "otherNightReminder": "If Stablekeeper chose a player today, show them this character selected you token and a Stablekeeper token. They choose whether they become a chosen traveller.",
-        "reminders": [ "Chosen" ],
+        "firstNight": 1,
+        "firstNightReminder": "Stablekeeper points to a player.",
+        "reminders": [ "Drunk", "Can't die" ],
         "name": "Stablekeeper",
         "team": "townsfolk",
-        "ability": "Once per game, during the day, publicly choose a traveller and another player. That player may choose to become the chosen traveller tonight."
+        "ability": "On your 1st night, choose a player. They are drunk today, can't die tomorrow and you learn who they are the day after tomorrow."
     },
     {
         "id": "jezuschrist",
