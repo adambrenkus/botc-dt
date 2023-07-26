@@ -76,7 +76,7 @@
         "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_archangel.png?raw=true",
         "name": "Archangel",
         "team": "townsfolk",
-        "ability": "On your first night, minions become your alignment and don't learn who the demon is. When you die, minions become good."
+        "ability": "On the first night, minions become good and don't learn who the demon is. When you die, minions become evil."
     },
     {
         "id": "houndmaster",
