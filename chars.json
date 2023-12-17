@@ -169,7 +169,7 @@
     "firstNightReminder": "Neighbours might become cold.",
     "name": "Frosty",
     "team": "outsider",
-    "ability": "Your neighbours might be cold. Each night*, learn how many players were cold today or last night.",
+    "ability": "Your neighbours might be cold. Each night*, learn how many players were cold today or last night."
   },
   {
     "id": "oldharry",
@@ -276,7 +276,7 @@
   },
   {
     "id": "grinch",
-    "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_kugutsu.png?raw=true",
+    "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_grinch.png?raw=true",
     "otherNight": 12,
     "otherNightReminder": "Grinch points to a player: they die. Then Grinch might use their ability.",
     "reminders": [
