@@ -170,7 +170,6 @@
     "name": "Frosty",
     "team": "outsider",
     "ability": "Your neighbours might be cold. Each night*, learn how many players were cold today or last night.",
-    "note": "Cold could mean: You register as dead or alive. You register as an opposite alignment. You register as another character type. You can't die tonight. Etc."
   },
   {
     "id": "oldharry",
@@ -268,7 +267,7 @@
     "firstNight": 3,
     "firstNightReminder": "Saint nicholas points to two players: 1st is poisoned and 2nd survives first execution.",
     "reminders": [
-      "Survives 1st execution",
+      "Survives execution",
       "Poisoned"
     ],
     "name": "Saint Nicholas",
