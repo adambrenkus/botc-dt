@@ -70,7 +70,7 @@
   },
   {
     "id": "jezuschrist",
-    "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_zombie.png?raw=true",
+    "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_jezuschrist.png?raw=true",
     "otherNight": 18,
     "otherNightReminder": "Jezus christ might be resurrected.",
     "name": "Jezus Christ",
@@ -79,7 +79,7 @@
   },
   {
     "id": "elf",
-    "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_jezuschrist.png?raw=true",
+    "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_elf.png?raw=true",
     "otherNight": 1,
     "otherNightReminder": "Elf's wish may come true, even if dead.",
     "reminders": [
@@ -162,7 +162,7 @@
   },
   {
     "id": "frosty",
-    "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_archangel.png?raw=true",
+    "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_snowman.png?raw=true",
     "otherNight": 5,
     "otherNightReminder": "Neighbours might become cold. Show Frosty how many players were cold today or last night.",
     "firstNight": 9,
@@ -183,7 +183,7 @@
   },
   {
     "id": "rudolph",
-    "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_bodyguard.png?raw=true",
+    "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_rudolph.png?raw=true",
     "otherNight": 19,
     "otherNightReminder": "If Rudolph died today, the demon learns their best target and their character.",
     "reminders": [
@@ -220,7 +220,7 @@
   },
   {
     "id": "jackfrost",
-    "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_basilisk.png?raw=true",
+    "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_jackfrost.png?raw=true",
     "firstNight": 8,
     "firstNightReminder": "Jack frost points to a player, they are cold until dusk.",
     "otherNight": 4,
@@ -248,7 +248,7 @@
   },
   {
     "id": "santaclaws",
-    "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_chernobog.png?raw=true",
+    "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_santa.png?raw=true",
     "otherNight": 9,
     "otherNightReminder": "Santa Claws points to one or two players. They choose if they die tonight or tomorrow night.",
     "reminders": [
